@@ -1,0 +1,44 @@
+name: Update GitHub Trending data
+
+on:
+  schedule:
+    # UTC 时间，每小时第 7 分钟跑一次（北京时间每小时 :07）
+    # 注意：GitHub 的 cron 在整点高峰期会延迟，实测可能晚 5~20 分钟
+    - cron: '7 * * * *'
+  workflow_dispatch: {} # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write # 需要写权限才能把抓取结果提交回仓库
+
+concurrency:
+  group: update-trending
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch trending
+        run: node scripts/fetch-trending.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): update trending $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

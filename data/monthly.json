@@ -1,0 +1,158 @@
+{
+  "since": "monthly",
+  "generatedAt": "2026-10-25T03:36:00.000Z",
+  "source": "https://github.com/trending?since=monthly",
+  "count": 15,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "Open-source, fully local alternative to ElevenLabs — voice cloning, voice design, video dubbing, dictation, transcription and audiobook production, covering 646 languages.",
+      "language": "Python",
+      "stars": 85140,
+      "forks": 9423,
+      "gained": 49780
+    },
+    {
+      "rank": 2,
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Agent Memory That Learns.",
+      "language": "Python",
+      "stars": 53476,
+      "forks": 6237,
+      "gained": 26766
+    },
+    {
+      "rank": 3,
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work.",
+      "language": "TypeScript",
+      "stars": 107012,
+      "forks": 17770,
+      "gained": 25709
+    },
+    {
+      "rank": 4,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 44845,
+      "forks": 2780,
+      "gained": 22219
+    },
+    {
+      "rank": 5,
+      "repo": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML, render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 71549,
+      "forks": 6464,
+      "gained": 18759
+    },
+    {
+      "rank": 6,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 86517,
+      "forks": 5163,
+      "gained": 15700
+    },
+    {
+      "rank": 7,
+      "repo": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework.",
+      "language": "Java",
+      "stars": 94009,
+      "forks": 10558,
+      "gained": 14582
+    },
+    {
+      "rank": 8,
+      "repo": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month, 34 free LLM providers, 635 free model endpoints, all behind one /v1 endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 41041,
+      "forks": 5536,
+      "gained": 12538
+    },
+    {
+      "rank": 9,
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 19538,
+      "forks": 1935,
+      "gained": 10495
+    },
+    {
+      "rank": 10,
+      "repo": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxed tool outputs (98% reduction), persistent session memory, and enforced routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 32137,
+      "forks": 2220,
+      "gained": 8261
+    },
+    {
+      "rank": 11,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-maintained directory of high-quality Claude Code plugins.",
+      "language": "Python",
+      "stars": 44377,
+      "forks": 4656,
+      "gained": 7817
+    },
+    {
+      "rank": 12,
+      "repo": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open-source plugin repository built for knowledge workers using Claude Cowork.",
+      "language": "Python",
+      "stars": 32676,
+      "forks": 3609,
+      "gained": 7138
+    },
+    {
+      "rank": 13,
+      "repo": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 22960,
+      "forks": 2235,
+      "gained": 6675
+    },
+    {
+      "rank": 14,
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 29877,
+      "forks": 8028,
+      "gained": 6492
+    },
+    {
+      "rank": 15,
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins.",
+      "language": "TypeScript",
+      "stars": 13921,
+      "forks": 1386,
+      "gained": 5402
+    }
+  ]
+}

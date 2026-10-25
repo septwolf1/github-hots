@@ -1,0 +1,108 @@
+{
+  "since": "daily",
+  "generatedAt": "2026-10-25T03:44:00.000Z",
+  "source": "https://github.com/trending?since=daily",
+  "count": 10,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 44858,
+      "forks": 2782,
+      "gained": 2264
+    },
+    {
+      "rank": 2,
+      "repo": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 19542,
+      "forks": 1936,
+      "gained": 896
+    },
+    {
+      "rank": 3,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 86524,
+      "forks": 5163,
+      "gained": 619
+    },
+    {
+      "rank": 4,
+      "repo": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box.",
+      "language": "TypeScript",
+      "stars": 4167,
+      "forks": 600,
+      "gained": 477
+    },
+    {
+      "rank": 5,
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 32272,
+      "forks": 1657,
+      "gained": 455
+    },
+    {
+      "rank": 6,
+      "repo": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 44640,
+      "forks": 5496,
+      "gained": 392
+    },
+    {
+      "rank": 7,
+      "repo": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot",
+      "language": "Rust",
+      "stars": 11067,
+      "forks": 1417,
+      "gained": 319
+    },
+    {
+      "rank": 8,
+      "repo": "jbiaojerry/ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。",
+      "language": "Python",
+      "stars": 22734,
+      "forks": 3197,
+      "gained": 227
+    },
+    {
+      "rank": 9,
+      "repo": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "stars": 108134,
+      "forks": 14814,
+      "gained": 44
+    },
+    {
+      "rank": 10,
+      "repo": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars": 3168,
+      "forks": 400,
+      "gained": 13
+    }
+  ]
+}

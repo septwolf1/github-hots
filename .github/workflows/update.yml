@@ -36,7 +36,7 @@ jobs:
         # 想用 DeepSeek 等更好的翻译，把下面三行取消注释并配好 Secret 即可
         # 失败不影响后续提交，只是保留英文原文
         continue-on-error: true
-         env:
+         # env:
            TRANSLATE_BASE_URL: https://api.deepseek.com/v1
            TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
            TRANSLATE_MODEL: deepseek-chat

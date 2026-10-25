@@ -144,17 +144,13 @@ https://<你的用户名>.github.io/<仓库名>/
 
 抓下来的是英文简介，`scripts/translate.mjs` 会把它翻译成中文，写入 `descriptionZh` 字段，前端优先显示中文（鼠标悬停可看英文原文）。
 
-**默认用 GitHub Models，不需要配置任何 API Key**，因为 Actions 里的 `GITHUB_TOKEN` 本身就能调用。workflow 里已经声明了权限：
+**默认走 Google 翻译的免密钥接口，不需要配置任何 API Key**，开箱即用。
 
-```yaml
-permissions:
-  contents: write
-  models: read   # 关键，没有这行翻译会 401
-```
+> 曾经考虑过 GitHub Models（用 `GITHUB_TOKEN` 直接调，零成本），但它已经在 **2026-07-30 正式下线**，推理 API 不再可用，所以没有采用。
 
-**省额度的关键：缓存。** 翻译结果按描述内容的哈希存在 `data/i18n-cache.json`，同一条描述永远只翻译一次。榜单个项目反复上榜也不会重复调用。
+**省额度、省时间的关键：缓存。** 翻译结果按描述内容的哈希存在 `data/i18n-cache.json`，同一条描述永远只翻译一次。榜单个项目反复上榜也不会重复请求。
 
-**换服务商** —— 想用 DeepSeek / 通义 / OpenAI，在 workflow 的翻译步骤里加三个环境变量即可（脚本走标准 OpenAI 兼容协议）：
+**想换成更好的翻译**（DeepSeek 中文表达更自然，成本极低）——把 workflow 里那三行 `env` 取消注释：
 
 ```yaml
 env:
@@ -163,16 +159,17 @@ env:
   TRANSLATE_MODEL: deepseek-chat
 ```
 
-Key 存到 **Settings → Secrets and variables → Actions**，不要写进代码。
+脚本会自动识别：**设了 `TRANSLATE_API_KEY` 就走 OpenAI 兼容通道，没设就走 Google 通道**。Key 存到 **Settings → Secrets and variables → Actions**，不要写进代码。
 
 **手动调试**：
 
 ```bash
-node scripts/translate.mjs --dry     # 只统计待翻译条数，不调用模型
+node scripts/translate.mjs --dry     # 只统计待翻译条数，不请求接口
 node scripts/translate.mjs --force   # 忽略缓存，全部重翻
+node test/translate.test.mjs         # 响应解析的单元测试
 ```
 
-**翻译失败不会影响主流程**：脚本捕获所有异常，保留英文原文，只在日志里输出一条黄色 warning。所以哪怕模型挂了，榜单照常更新。
+**失败不阻断主流程**：脚本带预检，先发一个极小的测试请求确认通道可用，再批量翻译。任何异常都只输出黄色 warning，榜单照常抓取、照常提交。预检失败时 warning 里会直接写明原因（401 是 Key 无效、429 是限流、`fetch failed` 是网络不通等），不用翻日志。
 
 > 注意：中英混排的简介（例如 `Consider it done. · 想到，就能做到`）会被判定为需要翻译，而不是直接跳过——判断依据是中文字符占比是否超过 50%。
 

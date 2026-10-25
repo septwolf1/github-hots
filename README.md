@@ -13,7 +13,7 @@ GitHub Pages 只能托管静态文件，**浏览器端直接 `fetch('https://git
 所以架构是这样：
 
 ```
-GitHub Actions（每小时 cron）
+GitHub Actions（每天 cron）
         │
         ├─ node scripts/fetch-trending.mjs
         │     抓取 github.com/trending?since=daily|weekly|monthly
@@ -108,7 +108,7 @@ https://<你的用户名>.github.io/<仓库名>/
 | `deploy.sh` | 一键推送脚本 |
 | `scripts/fetch-trending.mjs` | 抓取 + 解析脚本，零依赖（Node 18+ 原生 fetch） |
 | `scripts/translate.mjs` | 简介翻译成中文，结果缓存在 `data/i18n-cache.json` |
-| `.github/workflows/update.yml` | 定时任务，每小时第 7 分钟跑一次 |
+| `.github/workflows/update.yml` | 定时任务，每天北京时间 08:07 跑一次 |
 | `test/parse.test.mjs` | 解析逻辑单元测试，`node test/parse.test.mjs` 运行 |
 | `data/daily.json` | 日榜数据（自动生成） |
 | `data/weekly.json` | 周榜数据（自动生成） |
@@ -187,12 +187,15 @@ node test/translate.test.mjs         # 20 项单元测试：三个通道的响�
 
 ## 改起来
 
-**换抓取频率** —— 改 `.github/workflows/update.yml` 里的 cron（注意是 **UTC**）：
+**换抓取频率** —— 改 `.github/workflows/update.yml` 里的 cron。
+
+⚠️ **cron 用的是 UTC 时间，北京时间要减 8 小时。** 比如想每天北京时间早上 8 点跑，UTC 就是 0 点，写成 `7 0 * * *`（`:07` 是为了避开整点高峰）。
 
 ```yaml
-- cron: '7 * * * *'      # 每小时（当前）
+- cron: '7 0 * * *'      # 每天 08:07（当前）
+- cron: '7 22 * * *'     # 每天 06:07（UTC 前一天 22 点）
 - cron: '7 */6 * * *'    # 每 6 小时
-- cron: '7 0 * * *'      # 每天 UTC 0 点 = 北京时间早 8 点
+- cron: '7 * * * *'      # 每小时
 ```
 
 **只抓日榜** —— 改 workflow 里的命令：
@@ -217,13 +220,13 @@ const url = `https://github.com/trending/python?since=${since}`;
 
 1. **cron 不准时。** GitHub 的定时任务在整点高峰期会排队，实测延迟 5~20 分钟很常见。对榜单来说无所谓，但别拿它做准点任务。
 
-2. **仓库会被"冻结"。** public 仓库如果 60 天没有任何提交，定时任务会被自动禁用。本方案每小时都在 commit，天然不会触发；但如果你改成低频（比如每周一次），要注意这个限制。
+2. **仓库会被"冻结"。** public 仓库如果 60 天没有任何提交，定时任务会被自动禁用。本方案每天都有 commit，天然不会触发；但如果你改成低频（比如每周一次甚至更久），要注意这个限制。
 
 3. **抓取靠 DOM 结构。** `fetch-trending.mjs` 的解析逻辑依赖 GitHub Trending 页面当前的 HTML 结构。GitHub 改版就可能失效——脚本做了防御：**解析出 0 条会直接抛错并让 job 失败**，你会收到 Actions 失败邮件，而不是悄无声息地写入空数据。真失效了，改 `parseArticle()` 里的几个正则就行。
 
-4. **频率别太高。** 每小时一次已经足够，再密容易被 GitHub 限流。脚本内置了 3 次重试和超时保护。
+4. **频率别太高。** 榜单以日为单位变化，每天一次就够；调到每小时意义不大，还更容易触发 GitHub 限流。脚本内置了 3 次重试和超时保护。
 
-5. **免费额度。** public 仓库的 Actions 分钟数不计量，Pages 每月 100GB 带宽、软上限每小时 10 次构建。当前方案每小时 1 次构建，完全够用。
+5. **免费额度。** public 仓库的 Actions 分钟数不计量，Pages 每月 100GB 带宽、软上限每小时 10 次构建。当前方案每天 1 次构建，完全够用。
 
 ---
 

@@ -166,7 +166,7 @@
 
   <footer>
     <span id="updatedAt">—</span>
-    <span>数据每小时自动更新 ｜ <a href="https://github.com/trending">原始页面</a></span>
+    <span>数据每天更新一次 ｜ <a href="https://github.com/trending">原始页面</a></span>
   </footer>
 
 </div>
@@ -337,8 +337,8 @@
 
   load('daily');
 
-  // 每 10 分钟静默刷新当前周期（Actions 每小时才更新，这里只是让页面别太旧）
-  state.timer = setInterval(function () { load(state.since); }, 10 * 60 * 1000);
+  // 每 30 分钟静默刷新当前周期（Actions 每天才更新，这里只是让页面别太旧）
+  state.timer = setInterval(function () { load(state.since); }, 30 * 60 * 1000);
 })();
 </script>
 </body>

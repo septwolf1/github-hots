@@ -2,9 +2,9 @@ name: Update GitHub Trending data
 
 on:
   schedule:
-    # UTC 时间，每小时第 7 分钟跑一次（北京时间每小时 :07）
+    # UTC 时间：每天 00:07 = 北京时间 08:07
     # 注意：GitHub 的 cron 在整点高峰期会延迟，实测可能晚 5~20 分钟
-    - cron: '7 * * * *'
+    - cron: '7 0 * * *'
   workflow_dispatch: {} # 支持在 Actions 页面手动触发
 
 permissions:

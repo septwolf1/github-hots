@@ -286,7 +286,8 @@
         '<td class="gain"><div class="num">+' + fmt(it.gained) + '</div>' +
           '<div class="bar"><i style="width:' + pct.toFixed(1) + '%"></i></div></td>' +
         '<td class="total">' + fmt(it.stars) + '</td>' +
-        '<td class="desc">' + esc(it.description || '—') + '</td>' +
+        '<td class="desc" title="' + esc(it.description || '') + '">' +
+          esc(it.descriptionZh || it.description || '—') + '</td>' +
       '</tr>';
     }).join('');
   }

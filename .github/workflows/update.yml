@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write # 需要写权限才能把抓取结果提交回仓库
+  models: read # 调用 GitHub Models 做中文翻译（免 API Key）
 
 concurrency:
   group: update-trending
@@ -30,6 +31,14 @@ jobs:
 
       - name: Fetch trending
         run: node scripts/fetch-trending.mjs
+
+      - name: Translate descriptions to Chinese
+        # 失败不影响后续提交，只是保留英文原文
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRANSLATE_MODEL: openai/gpt-4o-mini
+        run: node scripts/translate.mjs
 
       - name: Commit and push
         run: |

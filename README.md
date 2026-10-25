@@ -107,6 +107,7 @@ https://<你的用户名>.github.io/<仓库名>/
 | `index.html` | 前端页面，读取 `data/*.json` 渲染表格，含日/周/月切换 |
 | `deploy.sh` | 一键推送脚本 |
 | `scripts/fetch-trending.mjs` | 抓取 + 解析脚本，零依赖（Node 18+ 原生 fetch） |
+| `scripts/translate.mjs` | 简介翻译成中文，结果缓存在 `data/i18n-cache.json` |
 | `.github/workflows/update.yml` | 定时任务，每小时第 7 分钟跑一次 |
 | `test/parse.test.mjs` | 解析逻辑单元测试，`node test/parse.test.mjs` 运行 |
 | `data/daily.json` | 日榜数据（自动生成） |
@@ -136,6 +137,44 @@ https://<你的用户名>.github.io/<仓库名>/
   ]
 }
 ```
+
+---
+
+## 中文翻译
+
+抓下来的是英文简介，`scripts/translate.mjs` 会把它翻译成中文，写入 `descriptionZh` 字段，前端优先显示中文（鼠标悬停可看英文原文）。
+
+**默认用 GitHub Models，不需要配置任何 API Key**，因为 Actions 里的 `GITHUB_TOKEN` 本身就能调用。workflow 里已经声明了权限：
+
+```yaml
+permissions:
+  contents: write
+  models: read   # 关键，没有这行翻译会 401
+```
+
+**省额度的关键：缓存。** 翻译结果按描述内容的哈希存在 `data/i18n-cache.json`，同一条描述永远只翻译一次。榜单个项目反复上榜也不会重复调用。
+
+**换服务商** —— 想用 DeepSeek / 通义 / OpenAI，在 workflow 的翻译步骤里加三个环境变量即可（脚本走标准 OpenAI 兼容协议）：
+
+```yaml
+env:
+  TRANSLATE_BASE_URL: https://api.deepseek.com/v1
+  TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+  TRANSLATE_MODEL: deepseek-chat
+```
+
+Key 存到 **Settings → Secrets and variables → Actions**，不要写进代码。
+
+**手动调试**：
+
+```bash
+node scripts/translate.mjs --dry     # 只统计待翻译条数，不调用模型
+node scripts/translate.mjs --force   # 忽略缓存，全部重翻
+```
+
+**翻译失败不会影响主流程**：脚本捕获所有异常，保留英文原文，只在日志里输出一条黄色 warning。所以哪怕模型挂了，榜单照常更新。
+
+> 注意：中英混排的简介（例如 `Consider it done. · 想到，就能做到`）会被判定为需要翻译，而不是直接跳过——判断依据是中文字符占比是否超过 50%。
 
 ---
 

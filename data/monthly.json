@@ -1,6 +1,6 @@
 {
   "since": "monthly",
-  "generatedAt": "2026-10-25T04:39:24.129Z",
+  "generatedAt": "2026-10-25T04:44:27.045Z",
   "source": "https://github.com/trending?since=monthly",
   "count": 21,
   "items": [
@@ -10,8 +10,8 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 85199,
-      "forks": 9429,
+      "stars": 85204,
+      "forks": 9430,
       "gained": 49780
     },
     {
@@ -40,7 +40,7 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 288199,
+      "stars": 288204,
       "forks": 42723,
       "gained": 22855
     },
@@ -50,8 +50,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 44941,
-      "forks": 2789,
+      "stars": 44955,
+      "forks": 2792,
       "gained": 22219
     },
     {
@@ -60,7 +60,7 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 71574,
+      "stars": 71575,
       "forks": 6468,
       "gained": 18759
     },
@@ -70,7 +70,7 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 73372,
+      "stars": 73374,
       "forks": 12865,
       "gained": 17406
     },
@@ -80,8 +80,8 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 86567,
-      "forks": 5165,
+      "stars": 86571,
+      "forks": 5167,
       "gained": 15700
     },
     {
@@ -100,7 +100,7 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 41063,
+      "stars": 41064,
       "forks": 5540,
       "gained": 12538
     },
@@ -110,8 +110,8 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19565,
-      "forks": 1937,
+      "stars": 19568,
+      "forks": 1938,
       "gained": 10495
     },
     {
@@ -140,8 +140,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44386,
-      "forks": 4656,
+      "stars": 44387,
+      "forks": 4657,
       "gained": 7817
     },
     {

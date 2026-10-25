@@ -1,6 +1,6 @@
 {
   "since": "weekly",
-  "generatedAt": "2026-10-25T04:39:22.532Z",
+  "generatedAt": "2026-10-25T04:44:25.886Z",
   "source": "https://github.com/trending?since=weekly",
   "count": 15,
   "items": [
@@ -10,8 +10,8 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 379509,
-      "forks": 94845,
+      "stars": 379526,
+      "forks": 94852,
       "gained": 78562
     },
     {
@@ -20,8 +20,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 44941,
-      "forks": 2789,
+      "stars": 44955,
+      "forks": 2792,
       "gained": 12680
     },
     {
@@ -30,8 +30,8 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 105058,
-      "forks": 6634,
+      "stars": 105061,
+      "forks": 6635,
       "gained": 9828
     },
     {
@@ -40,7 +40,7 @@
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
-      "stars": 134548,
+      "stars": 134551,
       "forks": 12841,
       "gained": 6868
     },
@@ -50,8 +50,8 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars": 221182,
-      "forks": 29593,
+      "stars": 221184,
+      "forks": 29596,
       "gained": 6857
     },
     {
@@ -60,7 +60,7 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 71574,
+      "stars": 71575,
       "forks": 6468,
       "gained": 5633
     },
@@ -70,7 +70,7 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 142675,
+      "stars": 142676,
       "forks": 16830,
       "gained": 4648
     },
@@ -90,7 +90,7 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 79079,
+      "stars": 79081,
       "forks": 9285,
       "gained": 3241
     },
@@ -100,8 +100,8 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44386,
-      "forks": 4656,
+      "stars": 44387,
+      "forks": 4657,
       "gained": 3232
     },
     {

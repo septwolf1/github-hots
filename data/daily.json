@@ -1,6 +1,6 @@
 {
   "since": "daily",
-  "generatedAt": "2026-10-25T04:53:56.793Z",
+  "generatedAt": "2026-10-25T05:06:59.937Z",
   "source": "https://github.com/trending?since=daily",
   "count": 10,
   "items": [
@@ -10,10 +10,10 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 44972,
+      "stars": 45002,
       "forks": 2793,
       "gained": 2264,
-      "descriptionZh": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
+      "descriptionZh": "用于多阶段安全审计的编码 Agent 技能，发现结果可独立验证且机器可读"
     },
     {
       "rank": 2,
@@ -21,10 +21,10 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19576,
-      "forks": 1938,
+      "stars": 19581,
+      "forks": 1939,
       "gained": 896,
-      "descriptionZh": "OpenShell是自主AI智能体的安全、私有运行时。"
+      "descriptionZh": "OpenShell 是面向自主 AI Agent 的安全、私密运行时。"
     },
     {
       "rank": 3,
@@ -32,10 +32,10 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 86573,
+      "stars": 86580,
       "forks": 5168,
       "gained": 619,
-      "descriptionZh": "让您的AI更好地进行设计的设计语言。"
+      "descriptionZh": "让你的 AI harness 更擅长设计的设计语言。"
     },
     {
       "rank": 4,
@@ -43,10 +43,10 @@
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4199,
+      "stars": 4207,
       "forks": 604,
       "gained": 477,
-      "descriptionZh": "说到做到。开箱即用的开源AI智能体· 想到，就能做到。开源、开箱即用的 AI Agent。"
+      "descriptionZh": "想到，就能做到。开源、开箱即用的 AI Agent。"
     },
     {
       "rank": 5,
@@ -54,10 +54,10 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 32349,
-      "forks": 1661,
+      "stars": 32368,
+      "forks": 1662,
       "gained": 455,
-      "descriptionZh": "Claude Code、Cursor和Codex的反 AI 味设计技能。"
+      "descriptionZh": "面向 Claude Code、Cursor 和 Codex 的反 AI 套路化设计技能。"
     },
     {
       "rank": 6,
@@ -65,10 +65,10 @@
       "url": "https://github.com/luongnv89/claude-howto",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
-      "stars": 44668,
-      "forks": 5497,
+      "stars": 44678,
+      "forks": 5498,
       "gained": 392,
-      "descriptionZh": "以示例为导向的可视化Claude Code指南--从基本概念到高级智能体，其中的复制粘贴模板可立即带来价值。"
+      "descriptionZh": "Claude Code 可视化示例指南，从基础概念到高级 Agent，附可直接复制的模板。"
     },
     {
       "rank": 7,
@@ -76,10 +76,10 @@
       "url": "https://github.com/pollen-robotics/microduck",
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
-      "stars": 11090,
-      "forks": 1418,
+      "stars": 11100,
+      "forks": 1419,
       "gained": 319,
-      "descriptionZh": "微型双足鸭机器人 🦆"
+      "descriptionZh": "一只小型双足鸭子机器人 🦆"
     },
     {
       "rank": 8,
@@ -87,7 +87,7 @@
       "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
       "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
       "language": "Python",
-      "stars": 22776,
+      "stars": 22786,
       "forks": 3198,
       "gained": 227
     },
@@ -97,10 +97,10 @@
       "url": "https://github.com/google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "language": "TypeScript",
-      "stars": 108168,
-      "forks": 14816,
+      "stars": 108179,
+      "forks": 14817,
       "gained": 44,
-      "descriptionZh": "一个开源的AI智能体，将Gemini的力量直接带入您的终端。"
+      "descriptionZh": "将 Gemini 能力直接带入终端的开源 AI Agent。"
     },
     {
       "rank": 10,
@@ -108,10 +108,10 @@
       "url": "https://github.com/aws/agent-toolkit-for-aws",
       "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "language": "Python",
-      "stars": 3181,
-      "forks": 401,
+      "stars": 3185,
+      "forks": 403,
       "gained": 13,
-      "descriptionZh": "AWS支持的官方MCP服务器、技能和插件，以帮助AI智能体在AWS上构建"
+      "descriptionZh": "AWS 官方支持的 MCP 服务器、技能与插件，助力 AI Agent 在 AWS 上构建。"
     }
   ]
 }

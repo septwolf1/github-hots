@@ -37,9 +37,9 @@ jobs:
         # 失败不影响后续提交，只是保留英文原文
         continue-on-error: true
         # env:
-        #   TRANSLATE_BASE_URL: https://api.deepseek.com/v1
-        #   TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
-        #   TRANSLATE_MODEL: deepseek-chat
+           TRANSLATE_BASE_URL: https://api.deepseek.com/v1
+           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+           TRANSLATE_MODEL: deepseek-chat
         run: node scripts/translate.mjs
 
       - name: Commit and push

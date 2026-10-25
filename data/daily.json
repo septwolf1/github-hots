@@ -12,7 +12,8 @@
       "language": "JavaScript",
       "stars": 44955,
       "forks": 2792,
-      "gained": 2264
+      "gained": 2264,
+      "descriptionZh": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
     },
     {
       "rank": 2,
@@ -22,7 +23,8 @@
       "language": "Rust",
       "stars": 19568,
       "forks": 1938,
-      "gained": 896
+      "gained": 896,
+      "descriptionZh": "OpenShell是自主AI智能体的安全、私有运行时。"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "language": "Rust",
       "stars": 86571,
       "forks": 5166,
-      "gained": 619
+      "gained": 619,
+      "descriptionZh": "让您的AI更好地进行设计的设计语言。"
     },
     {
       "rank": 4,
@@ -42,7 +45,8 @@
       "language": "TypeScript",
       "stars": 4197,
       "forks": 603,
-      "gained": 477
+      "gained": 477,
+      "descriptionZh": "说到做到。开箱即用的开源AI智能体· 想到，就能做到。开源、开箱即用的 AI Agent。"
     },
     {
       "rank": 5,
@@ -52,7 +56,8 @@
       "language": "CSS",
       "stars": 32335,
       "forks": 1661,
-      "gained": 455
+      "gained": 455,
+      "descriptionZh": "Claude Code、Cursor和Codex的反 AI 味设计技能。"
     },
     {
       "rank": 6,
@@ -62,7 +67,8 @@
       "language": "Python",
       "stars": 44665,
       "forks": 5497,
-      "gained": 392
+      "gained": 392,
+      "descriptionZh": "以示例为导向的可视化Claude Code指南--从基本概念到高级智能体，其中的复制粘贴模板可立即带来价值。"
     },
     {
       "rank": 7,
@@ -72,7 +78,8 @@
       "language": "Rust",
       "stars": 11088,
       "forks": 1418,
-      "gained": 319
+      "gained": 319,
+      "descriptionZh": "微型双足鸭机器人 🦆"
     },
     {
       "rank": 8,
@@ -92,7 +99,8 @@
       "language": "TypeScript",
       "stars": 108164,
       "forks": 14816,
-      "gained": 44
+      "gained": 44,
+      "descriptionZh": "一个开源的AI智能体，将Gemini的力量直接带入您的终端。"
     },
     {
       "rank": 10,
@@ -102,7 +110,8 @@
       "language": "Python",
       "stars": 3177,
       "forks": 401,
-      "gained": 13
+      "gained": 13,
+      "descriptionZh": "AWS支持的官方MCP服务器、技能和插件，以帮助AI智能体在AWS上构建"
     }
   ]
 }

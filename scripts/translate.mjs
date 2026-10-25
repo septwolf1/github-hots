@@ -4,8 +4,11 @@
  *
  * 两条通道，自动选择：
  *
- *   1) 默认：Google 翻译免密钥接口（translate.googleapis.com/translate_a/single）
- *      —— 不需要任何 API Key，开箱即用，适合本项目这种短句翻译场景
+ *   1) 默认：免密钥通道，按顺序自动降级
+ *      - Google 翻译（translate.googleapis.com/translate_a/single）
+ *      - MyMemory（api.mymemory.translated.net）—— 对机房 IP 更友好
+ *      注意：Google 会拦截 GitHub Actions 的机房 IP（HTTP 429），
+ *      预检发现不通会自动切到 MyMemory，无需人工干预。
  *
  *   2) 可选：任意 OpenAI 兼容接口（DeepSeek / 通义 / OpenAI / 智谱 …）
  *      —— 只要设了 TRANSLATE_API_KEY 就会自动切过去，翻译质量更好
@@ -41,7 +44,6 @@ const UA =
 const API_KEY = process.env.TRANSLATE_API_KEY || '';
 const BASE_URL = (process.env.TRANSLATE_BASE_URL || 'https://api.openai.com/v1').replace(/\/+$/, '');
 const MODEL = process.env.TRANSLATE_MODEL || 'gpt-4o-mini';
-const PROVIDER = API_KEY ? 'openai' : 'google';
 
 const GOOGLE_URL = 'https://translate.googleapis.com/translate_a/single';
 const BATCH_SIZE = 12;
@@ -105,6 +107,130 @@ async function translateGoogle(text) {
   return zh;
 }
 
+/* ---------- 通道 A2：MyMemory（免密钥，对机房 IP 更友好） ---------- */
+
+function decodeEntities(s = '') {
+  return s
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ');
+}
+
+export function parseMyMemoryResponse(json) {
+  const status = json?.responseStatus;
+  const raw = json?.responseData?.translatedText;
+  if (status !== undefined && status !== 200) {
+    throw new Error(`接口返回 ${status}：${json?.responseDetails || ''}`);
+  }
+  if (typeof raw !== 'string' || !raw.trim()) throw new Error('译文为空');
+  const zh = decodeEntities(raw).trim();
+  // 超限时 MyMemory 会把警告文案塞进译文里
+  if (/MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID (SOURCE|EMAIL)/i.test(zh)) {
+    throw new Error(zh.slice(0, 60));
+  }
+  return zh;
+}
+
+async function translateMyMemory(text) {
+  const url =
+    'https://api.mymemory.translated.net/get?langpair=en%7Czh-CN&q=' +
+    encodeURIComponent(text);
+  const res = await fetch(url, {
+    headers: { 'User-Agent': UA, Accept: 'application/json' },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return parseMyMemoryResponse(await res.json());
+}
+
+/* 免密钥通道，按顺序尝试，前一个失败自动换下一个（质量由高到低） */
+const FREE_CHAIN = [
+  { id: 'bing', name: 'Bing 翻译', fn: (t) => translateBing(t), delay: 250 },
+  { id: 'google', name: 'Google', fn: translateGoogle, delay: 350 },
+  { id: 'mymemory', name: 'MyMemory', fn: translateMyMemory, delay: 600 },
+];
+
+/* ---------- 通道 A3：Bing（微软 Edge 内置翻译，免密钥，技术文本质量最好） ---------- */
+
+let bingToken = null;
+let bingTokenExp = 0;
+
+async function getBingToken() {
+  if (bingToken && Date.now() < bingTokenExp) return bingToken;
+  const res = await fetch('https://edge.microsoft.com/translate/auth', {
+    headers: { 'User-Agent': UA },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!res.ok) throw new Error(`取令牌失败 HTTP ${res.status}`);
+  const token = (await res.text()).trim();
+  if (!token) throw new Error('令牌为空');
+  bingToken = token;
+  bingTokenExp = Date.now() + 8 * 60 * 1000; // JWT 约 10 分钟有效，留 2 分钟余量
+  return token;
+}
+
+export function parseBingResponse(json) {
+  const zh = json?.[0]?.translations?.[0]?.text;
+  if (typeof zh !== 'string' || !zh.trim()) throw new Error('译文为空');
+  return zh.trim();
+}
+
+async function translateBing(text) {
+  const token = await getBingToken();
+  const res = await fetch(
+    'https://api-edge.cognitive.microsofttranslator.com/translate?to=zh-Hans&api-version=3.0',
+    {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+        'User-Agent': UA,
+      },
+      body: JSON.stringify([{ Text: text }]),
+      signal: AbortSignal.timeout(20_000),
+    }
+  );
+  if (res.status === 401) {
+    bingToken = null; // 令牌过期，下次重新取
+    throw new Error('HTTP 401 令牌失效');
+  }
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return parseBingResponse(await res.json());
+}
+
+/* ---------- 术语纠正 ---------- */
+
+/**
+ * 机器翻译（尤其是 MyMemory）在技术语境下经常误译，
+ * 这里做一层确定性的后处理。只针对 AI/开源领域的固定表达，
+ * 不会影响正常词汇。
+ */
+const GLOSSARY = [
+  [/高级客服代表/g, '高级智能体'],
+  [/客服代表/g, '智能体'],
+  [/代理商/g, '智能体'],
+  [/(?<!反向)代理/g, '智能体'],
+  [/双子座/g, 'Gemini'],
+  [/防\s*AI\s*倾斜/g, '反 AI 味'],
+  [/AI\s*倾斜/g, 'AI 味'],
+  [/人工智能/g, 'AI'],
+  [/Claude\s*准则/g, 'Claude Code'], // 产品名被误译
+  [/考虑一下吧/g, '说到做到'], // "Consider it done" 的意译
+  [/座席线束/g, '智能体框架'], // agent harness
+  [/座席/g, '智能体'], // agent 被译成"座席"
+  [/线束/g, '框架'], // harness 被译成"线束"
+  [/后见之明/g, 'Hindsight'], // 项目名不该意译
+];
+
+export function applyGlossary(s = '') {
+  let out = s;
+  for (const [re, to] of GLOSSARY) out = out.replace(re, to);
+  return out.replace(/\s{2,}/g, ' ').trim();
+}
+
 /* ---------- 通道 B：OpenAI 兼容 ---------- */
 
 async function translateOpenAI(texts) {
@@ -163,36 +289,55 @@ async function translateOpenAI(texts) {
 /* ---------- 预检 ---------- */
 
 async function preflight() {
-  try {
-    if (PROVIDER === 'google') {
-      const zh = await translateGoogle('hello world');
-      return zh ? { ok: true } : { ok: false, reason: 'Google 接口返回空译文' };
+  // 配了自己的 Key，就只走 OpenAI 兼容通道
+  if (API_KEY) {
+    try {
+      const map = await translateOpenAI(['hello world']);
+      if (map.size === 0) return { ok: false, reason: '模型未返回有效结果' };
+      return {
+        ok: true,
+        provider: { id: 'openai', name: `OpenAI 兼容（${BASE_URL} / ${MODEL}）`, delay: 800 },
+      };
+    } catch (err) {
+      const hints = {
+        'HTTP 401': 'API Key 无效，检查 TRANSLATE_API_KEY',
+        'HTTP 403': 'Key 无权限或来源受限',
+        'HTTP 404': `端点或模型不存在，检查 TRANSLATE_BASE_URL 与 TRANSLATE_MODEL（当前 ${BASE_URL} / ${MODEL}）`,
+        'HTTP 429': '触发限流，稍后重试或减小 BATCH_SIZE',
+      };
+      const hit = Object.keys(hints).find((k) => err.message.includes(k));
+      return { ok: false, reason: `${err.message}${hit ? ` —— ${hints[hit]}` : ''}` };
     }
-    const map = await translateOpenAI(['hello world']);
-    return map.size > 0 ? { ok: true } : { ok: false, reason: '模型未返回有效结果' };
-  } catch (err) {
-    const hints = {
-      'HTTP 401': 'API Key 无效，检查 TRANSLATE_API_KEY',
-      'HTTP 403': 'Key 无权限或来源受限',
-      'HTTP 404': `端点或模型不存在，检查 TRANSLATE_BASE_URL 与 TRANSLATE_MODEL（当前 ${BASE_URL} / ${MODEL}）`,
-      'HTTP 429': '触发限流，稍后重试或减小 BATCH_SIZE',
-    };
-    const hint = Object.keys(hints).find((k) => err.message.includes(k));
-    return { ok: false, reason: `${err.message}${hint ? ` —— ${hints[hint]}` : ''}` };
   }
+
+  // 免密钥通道：按顺序逐个探测，用第一个能通的
+  const reasons = [];
+  for (const p of FREE_CHAIN) {
+    try {
+      const zh = await p.fn('hello world');
+      if (zh) {
+        console.log(`预检：${p.name} 可用`);
+        return { ok: true, provider: p };
+      }
+      reasons.push(`${p.name} 返回空译文`);
+    } catch (err) {
+      reasons.push(`${p.name} ${err.message}`);
+      console.log(`预检：${p.name} 不可用（${err.message}），尝试下一个`);
+    }
+  }
+  return { ok: false, reason: `所有免密钥通道均不可用 —— ${reasons.join('；')}` };
 }
 
 /* ---------- 主流程 ---------- */
 
 async function main() {
-  console.log(`翻译通道：${PROVIDER === 'google' ? 'Google 免密钥接口' : `OpenAI 兼容（${BASE_URL} / ${MODEL}）`}`);
-
   const pre = await preflight();
   if (!pre.ok) {
     warn(`翻译预检失败，本次跳过翻译（保留英文）：${pre.reason}`);
     return;
   }
-  console.log('预检通过');
+  let primary = pre.provider;
+  console.log(`翻译通道：${primary.name}`);
 
   const cache = FORCE ? {} : await readJson(CACHE_PATH, {});
 
@@ -230,23 +375,7 @@ async function main() {
   let failed = 0;
   let firstError = '';
 
-  if (PROVIDER === 'google') {
-    for (let i = 0; i < todo.length; i++) {
-      const text = todo[i];
-      process.stdout.write(`  ${i + 1}/${todo.length} ... `);
-      try {
-        const zh = await translateGoogle(text);
-        cache[unique.get(text)] = zh;
-        translated++;
-        console.log(zh.slice(0, 28) + (zh.length > 28 ? '…' : ''));
-      } catch (err) {
-        failed++;
-        if (!firstError) firstError = err.message;
-        console.log(`失败：${err.message}`);
-      }
-      await sleep(350); // 轻微限速，避免被 Google 拦
-    }
-  } else {
+  if (primary.id === 'openai') {
     const total = Math.ceil(todo.length / BATCH_SIZE);
     for (let i = 0; i < todo.length; i += BATCH_SIZE) {
       const chunk = todo.slice(i, i + BATCH_SIZE);
@@ -256,7 +385,7 @@ async function main() {
         for (const [idx, zh] of result) {
           const text = chunk[idx];
           if (text) {
-            cache[unique.get(text)] = zh;
+            cache[unique.get(text)] = applyGlossary(zh);
             translated++;
           }
         }
@@ -267,6 +396,58 @@ async function main() {
         console.log(`失败：${err.message}`);
       }
       await sleep(800);
+    }
+  } else {
+    // 免密钥通道：逐条翻译，当前通道连续失败 3 次就自动降级到下一个
+    let streak = 0;
+
+    for (let i = 0; i < todo.length; i++) {
+      const text = todo[i];
+      process.stdout.write(`  ${i + 1}/${todo.length} ... `);
+
+      let zh = null;
+      let usedName = primary.name;
+
+      // 先用当前通道
+      try {
+        zh = await primary.fn(text);
+        streak = 0;
+      } catch (err) {
+        streak++;
+        // 当前通道失败，立刻用备用通道兜底
+        for (const p of FREE_CHAIN.filter((x) => x.id !== primary.id)) {
+          try {
+            zh = await p.fn(text);
+            usedName = p.name;
+            break;
+          } catch {
+            /* 继续试下一个 */
+          }
+        }
+        if (!zh && !firstError) firstError = `${primary.name} ${err.message}`;
+
+        // 连续失败说明当前通道整体不可用，降级
+        if (streak >= 3) {
+          const next = FREE_CHAIN.find((x) => x.id !== primary.id);
+          if (next) {
+            console.log(`\n  [降级] ${primary.name} 连续失败 ${streak} 次，切换到 ${next.name}`);
+            primary = next;
+            streak = 0;
+          }
+        }
+      }
+
+      if (zh) {
+        zh = applyGlossary(zh);
+        cache[unique.get(text)] = zh;
+        translated++;
+        console.log(`${zh.slice(0, 26)}${zh.length > 26 ? '…' : ''}${usedName !== primary.name ? `（${usedName}）` : ''}`);
+      } else {
+        failed++;
+        console.log('失败');
+      }
+
+      await sleep(primary.delay);
     }
   }
 

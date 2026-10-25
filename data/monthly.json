@@ -12,7 +12,8 @@
       "language": "Python",
       "stars": 85204,
       "forks": 9430,
-      "gained": 49780
+      "gained": 49780,
+      "descriptionZh": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
     },
     {
       "rank": 2,
@@ -22,7 +23,8 @@
       "language": "Python",
       "stars": 53486,
       "forks": 6238,
-      "gained": 26766
+      "gained": 26766,
+      "descriptionZh": "Hindsight：学习的智能体记忆"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "language": "TypeScript",
       "stars": 107027,
       "forks": 17774,
-      "gained": 25709
+      "gained": 25709,
+      "descriptionZh": "每个人都使用的开源应用程序来管理工作中的智能体"
     },
     {
       "rank": 4,
@@ -42,7 +45,8 @@
       "language": "JavaScript",
       "stars": 288204,
       "forks": 42723,
-      "gained": 22855
+      "gained": 22855,
+      "descriptionZh": "智能体框架性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "rank": 5,
@@ -52,7 +56,8 @@
       "language": "JavaScript",
       "stars": 44955,
       "forks": 2792,
-      "gained": 22219
+      "gained": 22219,
+      "descriptionZh": "用于多阶段安全审核的编码智能体技能，具有经过独立验证的机器可读结果"
     },
     {
       "rank": 6,
@@ -62,7 +67,8 @@
       "language": "TypeScript",
       "stars": 71575,
       "forks": 6468,
-      "gained": 18759
+      "gained": 18759,
+      "descriptionZh": "编写HTML。渲染视频。专为智能体打造。"
     },
     {
       "rank": 7,
@@ -72,7 +78,8 @@
       "language": "Python",
       "stars": 73374,
       "forks": 12865,
-      "gained": 17406
+      "gained": 17406,
+      "descriptionZh": "学习AI工程！学习它。建造它。为别人运送它。"
     },
     {
       "rank": 8,
@@ -82,7 +89,8 @@
       "language": "Rust",
       "stars": 86571,
       "forks": 5167,
-      "gained": 15700
+      "gained": 15700,
+      "descriptionZh": "让您的AI更好地进行设计的设计语言。"
     },
     {
       "rank": 9,
@@ -92,7 +100,8 @@
       "language": "Java",
       "stars": 94023,
       "forks": 10558,
-      "gained": 14582
+      "gained": 14582,
+      "descriptionZh": "Ghidra是一个软件逆向工程（ SRE ）框架"
     },
     {
       "rank": 10,
@@ -102,7 +111,8 @@
       "language": "TypeScript",
       "stars": 41064,
       "forks": 5540,
-      "gained": 12538
+      "gained": 12538,
+      "descriptionZh": "每月74亿个代币。34个免费LLM提供商。635个免费模型端点。全部在一个/v1端点后面，加上任何与OpenAI兼容的自定义端点。智能路由、自动故障转移、加密密钥。仅限个人实验。"
     },
     {
       "rank": 11,
@@ -112,7 +122,8 @@
       "language": "Rust",
       "stars": 19568,
       "forks": 1938,
-      "gained": 10495
+      "gained": 10495,
+      "descriptionZh": "OpenShell是自主AI智能体的安全、私有运行时。"
     },
     {
       "rank": 12,
@@ -122,7 +133,8 @@
       "language": "TypeScript",
       "stars": 102868,
       "forks": 9084,
-      "gained": 8637
+      "gained": 8637,
+      "descriptionZh": "每个智能体跨会话的持久上下文–捕获智能体在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
     },
     {
       "rank": 13,
@@ -132,7 +144,8 @@
       "language": "TypeScript",
       "stars": 32138,
       "forks": 2221,
-      "gained": 8261
+      "gained": 8261,
+      "descriptionZh": "AI编码智能体的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
     },
     {
       "rank": 14,
@@ -142,7 +155,8 @@
       "language": "Python",
       "stars": 44387,
       "forks": 4657,
-      "gained": 7817
+      "gained": 7817,
+      "descriptionZh": "由Anthropic管理的高质量Claude Code插件的官方目录。"
     },
     {
       "rank": 15,
@@ -152,7 +166,8 @@
       "language": "Python",
       "stars": 32695,
       "forks": 3612,
-      "gained": 7138
+      "gained": 7138,
+      "descriptionZh": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
     },
     {
       "rank": 16,
@@ -162,7 +177,8 @@
       "language": "Python",
       "stars": 22970,
       "forks": 2237,
-      "gained": 6675
+      "gained": 6675,
+      "descriptionZh": "为您的智能体提供CAD超能力。"
     },
     {
       "rank": 17,
@@ -182,7 +198,8 @@
       "language": "Python",
       "stars": 10945,
       "forks": 1409,
-      "gained": 6206
+      "gained": 6206,
+      "descriptionZh": "更智能、自托管的AI助手—多用户、多智能体。"
     },
     {
       "rank": 19,
@@ -192,7 +209,8 @@
       "language": "TypeScript",
       "stars": 13926,
       "forks": 1388,
-      "gained": 5402
+      "gained": 5402,
+      "descriptionZh": "光标插件规范和官方插件"
     },
     {
       "rank": 20,
@@ -202,7 +220,8 @@
       "language": "Python",
       "stars": 39643,
       "forks": 3427,
-      "gained": 3908
+      "gained": 3908,
+      "descriptionZh": "📑 PageIndex ：无矢量、基于推理的RAG的文档索引"
     },
     {
       "rank": 21,
@@ -212,7 +231,8 @@
       "language": "Go",
       "stars": 5838,
       "forks": 272,
-      "gained": 2036
+      "gained": 2036,
+      "descriptionZh": "一个终端窗口管理器，它知道您的智能体在做什么。平铺窗格、工作区、重新启动后的会话，以及每个编码智能体的一个收件箱。官方仅在tuios.dev和此仓库。tuios没有X/Twitter帐户。"
     }
   ]
 }

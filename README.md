@@ -144,13 +144,23 @@ https://<你的用户名>.github.io/<仓库名>/
 
 抓下来的是英文简介，`scripts/translate.mjs` 会把它翻译成中文，写入 `descriptionZh` 字段，前端优先显示中文（鼠标悬停可看英文原文）。
 
-**默认走 Google 翻译的免密钥接口，不需要配置任何 API Key**，开箱即用。
+**默认不需要配置任何 API Key**，脚本内置三个免密钥通道，预检时按质量从高到低自动选一个能用的：
+
+| 顺序 | 通道 | 说明 |
+|---|---|---|
+| 1 | **Bing 翻译** | 微软 Edge 内置翻译（Azure Translator），技术文本质量最好 |
+| 2 | **Google** | 会拦截 GitHub Actions 的机房 IP，返回 429，通常用不上 |
+| 3 | **MyMemory** | 兜底，质量一般，靠下面的术语表纠正 |
+
+运行中如果当前通道连续失败 3 次，会自动降级到下一个，不需要人工干预。
 
 > 曾经考虑过 GitHub Models（用 `GITHUB_TOKEN` 直接调，零成本），但它已经在 **2026-07-30 正式下线**，推理 API 不再可用，所以没有采用。
 
-**省额度、省时间的关键：缓存。** 翻译结果按描述内容的哈希存在 `data/i18n-cache.json`，同一条描述永远只翻译一次。榜单个项目反复上榜也不会重复请求。
+**术语纠正。** 机器翻译在技术语境下常把 `agent` 译成"代理商/座席"、`Gemini` 译成"双子座"、`Hindsight` 译成"后见之明"。脚本内置一张术语表（`GLOSSARY`）做确定性后处理，比反复调参可靠。要加词直接往里塞正则即可。
 
-**想换成更好的翻译**（DeepSeek 中文表达更自然，成本极低）——把 workflow 里那三行 `env` 取消注释：
+**省额度、省时间的关键：缓存。** 翻译结果按描述内容的哈希存在 `data/i18n-cache.json`，同一条描述永远只翻译一次。榜单项目反复上榜也不会重复请求。缓存文件建议一起提交到仓库。
+
+**想要更好的质量，强烈建议换成 DeepSeek**（中文表达自然得多，成本几乎为零）——把 workflow 里那三行 `env` 取消注释：
 
 ```yaml
 env:
@@ -159,17 +169,17 @@ env:
   TRANSLATE_MODEL: deepseek-chat
 ```
 
-脚本会自动识别：**设了 `TRANSLATE_API_KEY` 就走 OpenAI 兼容通道，没设就走 Google 通道**。Key 存到 **Settings → Secrets and variables → Actions**，不要写进代码。
+脚本会自动识别：**设了 `TRANSLATE_API_KEY` 就只走 OpenAI 兼容通道，跳过所有免费通道**。Key 存到 **Settings → Secrets and variables → Actions**，不要写进代码。
 
 **手动调试**：
 
 ```bash
 node scripts/translate.mjs --dry     # 只统计待翻译条数，不请求接口
 node scripts/translate.mjs --force   # 忽略缓存，全部重翻
-node test/translate.test.mjs         # 响应解析的单元测试
+node test/translate.test.mjs         # 20 项单元测试：三个通道的响应解析 + 术语表
 ```
 
-**失败不阻断主流程**：脚本带预检，先发一个极小的测试请求确认通道可用，再批量翻译。任何异常都只输出黄色 warning，榜单照常抓取、照常提交。预检失败时 warning 里会直接写明原因（401 是 Key 无效、429 是限流、`fetch failed` 是网络不通等），不用翻日志。
+**失败不阻断主流程**：脚本带预检，先发一个极小的测试请求确认通道可用，再开始翻译。任何异常都只输出黄色 warning，榜单照常抓取、照常提交。预检失败时 warning 里会直接写明每个通道的失败原因，不用翻日志。
 
 > 注意：中英混排的简介（例如 `Consider it done. · 想到，就能做到`）会被判定为需要翻译，而不是直接跳过——判断依据是中文字符占比是否超过 50%。
 

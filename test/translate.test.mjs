@@ -143,5 +143,19 @@ check('人工智能 → AI', () =>
 check('无匹配时原样返回', () =>
   assert.equal(applyGlossary('一个微型双足鸭机器人'), '一个微型双足鸭机器人'));
 
+check('AI harness → AI 智能体框架（无多余空格）', () =>
+  assert.equal(
+    applyGlossary('让你的 AI harness 更擅长设计的设计语言。'),
+    '让你的 AI 智能体框架更擅长设计的设计语言。'
+  ));
+
+check('Agent harness 不重复成 Agent 智能体框架', () =>
+  assert.equal(applyGlossary('Agent harness 性能优化系统。'), '智能体框架性能优化系统。'));
+
+check('术语表幂等（重复应用不叠加）', () => {
+  const once = applyGlossary('Agent harness 性能优化系统。');
+  assert.equal(applyGlossary(once), once);
+});
+
 console.log(`\n通过 ${pass} 项，失败 ${fail} 项\n`);
 process.exit(fail ? 1 : 0);

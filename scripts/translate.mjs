@@ -223,6 +223,9 @@ const GLOSSARY = [
   [/座席/g, '智能体'], // agent 被译成"座席"
   [/线束/g, '框架'], // harness 被译成"线束"
   [/后见之明/g, 'Hindsight'], // 项目名不该意译
+  [/Agent\s*harness\s*/gi, '智能体框架'], // 先匹配带 Agent 的，避免变成"Agent 智能体框架"
+  [/AI\s*harness\s*/gi, 'AI 智能体框架'],
+  [/harness\s*/gi, '智能体框架'],
 ];
 
 export function applyGlossary(s = '') {

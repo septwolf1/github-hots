@@ -1,7 +1,7 @@
 {
   "4bce776d47195553": "用于多阶段安全审计的编码 Agent 技能，发现结果可独立验证且机器可读",
   "4d6819b952c85016": "OpenShell 是面向自主 AI Agent 的安全、私密运行时。",
-  "c317897df7c271bb": "让你的 AI harness 更擅长设计的设计语言。",
+  "c317897df7c271bb": "让你的 AI 智能体框架更擅长设计的设计语言。",
   "f3061879e5db5c12": "想到，就能做到。开源、开箱即用的 AI Agent。",
   "356dfb29b89cae6c": "面向 Claude Code、Cursor 和 Codex 的反 AI 套路化设计技能。",
   "cec1d47b1e595a8e": "Claude Code 可视化示例指南，从基础概念到高级 Agent，附可直接复制的模板。",
@@ -24,7 +24,7 @@
   "f5cb1ec90245f9d7": "VoiceStudio 是开源、完全本地的 ElevenLabs 替代方案——支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录与有声书制作。",
   "e6d843d8ba3c5b8f": "Hindsight：会学习的 Agent 记忆。",
   "e091e6c4017040c7": "人人都在用的开源应用，用于管理工作中的 Agent",
-  "e4eb8aaa1f3709df": "Agent harness 性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全与研究优先开发。",
+  "e4eb8aaa1f3709df": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全与研究优先开发。",
   "0e246e8440dabe2f": "学习 AI 工程！学它、构建它、为他人交付它。",
   "e0da9f5ac838a6ef": "Ghidra 是一个软件逆向工程（SRE）框架",
   "9654c885c709838b": "每月 74 亿 token。34 个免费 LLM 提供商。635 个免费模型端点。全部汇聚于一个 /v1 端点，另支持任意 OpenAI 兼容端点。智能路由、自动故障转移、密钥加密。仅供个人实验。",

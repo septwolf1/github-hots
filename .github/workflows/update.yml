@@ -32,14 +32,14 @@ jobs:
         run: node scripts/fetch-trending.mjs
 
       - name: Translate descriptions to Chinese
-        # 默认走 Google 免密钥接口，无需任何配置
-        # 想用 DeepSeek 等更好的翻译，把下面三行取消注释并配好 Secret 即可
+        # 免密钥通道按 Bing → Google → MyMemory 自动降级
+        # 下面配了 DeepSeek 后会直接走它，跳过所有免费通道（质量更好）
         # 失败不影响后续提交，只是保留英文原文
         continue-on-error: true
-         # env:
-           TRANSLATE_BASE_URL: https://api.deepseek.com/v1
-           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
-           TRANSLATE_MODEL: deepseek-chat
+        env:
+          TRANSLATE_BASE_URL: https://api.deepseek.com/v1
+          TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+          TRANSLATE_MODEL: deepseek-chat
         run: node scripts/translate.mjs
 
       - name: Commit and push

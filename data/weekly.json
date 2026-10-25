@@ -1,6 +1,6 @@
 {
   "since": "weekly",
-  "generatedAt": "2026-10-25T04:31:56.741Z",
+  "generatedAt": "2026-10-25T04:39:22.532Z",
   "source": "https://github.com/trending?since=weekly",
   "count": 15,
   "items": [
@@ -10,8 +10,8 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 379486,
-      "forks": 94835,
+      "stars": 379509,
+      "forks": 94845,
       "gained": 78562
     },
     {
@@ -20,8 +20,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 44928,
-      "forks": 2788,
+      "stars": 44941,
+      "forks": 2789,
       "gained": 12680
     },
     {
@@ -30,7 +30,7 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 105056,
+      "stars": 105058,
       "forks": 6634,
       "gained": 9828
     },
@@ -50,8 +50,8 @@
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars": 221171,
-      "forks": 29590,
+      "stars": 221182,
+      "forks": 29593,
       "gained": 6857
     },
     {
@@ -60,7 +60,7 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 71571,
+      "stars": 71574,
       "forks": 6468,
       "gained": 5633
     },
@@ -70,7 +70,7 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 142673,
+      "stars": 142675,
       "forks": 16830,
       "gained": 4648
     },
@@ -110,7 +110,7 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 56880,
+      "stars": 56881,
       "forks": 5100,
       "gained": 3069
     },
@@ -120,7 +120,7 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 32693,
+      "stars": 32695,
       "forks": 3612,
       "gained": 2631
     },
@@ -130,7 +130,7 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 13924,
+      "stars": 13926,
       "forks": 1388,
       "gained": 1729
     },

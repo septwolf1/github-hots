@@ -1,6 +1,6 @@
 {
   "since": "daily",
-  "generatedAt": "2026-10-25T04:31:55.376Z",
+  "generatedAt": "2026-10-25T04:39:21.248Z",
   "source": "https://github.com/trending?since=daily",
   "count": 10,
   "items": [
@@ -10,8 +10,8 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 44928,
-      "forks": 2788,
+      "stars": 44941,
+      "forks": 2789,
       "gained": 2264
     },
     {
@@ -20,7 +20,7 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19564,
+      "stars": 19565,
       "forks": 1937,
       "gained": 896
     },
@@ -30,7 +30,7 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 86562,
+      "stars": 86567,
       "forks": 5165,
       "gained": 619
     },
@@ -40,7 +40,7 @@
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4192,
+      "stars": 4193,
       "forks": 603,
       "gained": 477
     },
@@ -50,7 +50,7 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 32314,
+      "stars": 32328,
       "forks": 1659,
       "gained": 455
     },
@@ -60,7 +60,7 @@
       "url": "https://github.com/luongnv89/claude-howto",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
-      "stars": 44658,
+      "stars": 44663,
       "forks": 5497,
       "gained": 392
     },
@@ -70,7 +70,7 @@
       "url": "https://github.com/pollen-robotics/microduck",
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
-      "stars": 11079,
+      "stars": 11082,
       "forks": 1418,
       "gained": 319
     },
@@ -80,8 +80,8 @@
       "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
       "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
       "language": "Python",
-      "stars": 22759,
-      "forks": 3197,
+      "stars": 22770,
+      "forks": 3198,
       "gained": 227
     },
     {

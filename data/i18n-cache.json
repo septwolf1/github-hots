@@ -33,5 +33,10 @@
   "8df3deb177fe9249": "赋予你的 Agent CAD 超能力。",
   "633df299de25daac": "更智能的自托管 AI 助手——多用户、多 Agent。",
   "1da7894d4c11dd89": "📑 PageIndex：面向无向量、基于推理的 RAG 的文档索引",
-  "0bf3a08132175a4f": "一个知晓你的 Agent 在做什么的终端窗口管理器。平铺窗格、工作区、可跨重启的会话，以及面向所有编码 Agent 的统一 Inbox。仅 tuios.dev 和本仓库为官方。tuios 没有 X/Twitter 账号。"
+  "0bf3a08132175a4f": "一个知晓你的 Agent 在做什么的终端窗口管理器。平铺窗格、工作区、可跨重启的会话，以及面向所有编码 Agent 的统一 Inbox。仅 tuios.dev 和本仓库为官方。tuios 没有 X/Twitter 账号。",
+  "03d519e20881158c": "TradingAgents：多 Agent LLM 金融交易框架",
+  "320a35ec8b34937e": "Claude Code 通用 SEO 技能。含 26 个子技能与 19 个子 Agent，覆盖技术 SEO、E-E-A-T、schema、GEO/AEO、Agent 就绪、外链、本地 SEO、电商、国际 SEO、Google API 及 PDF/Excel 报告。",
+  "a955fd41723063bb": "开源可自托管的 PaaS，Vercel、Heroku 与 Netlify 的替代方案，可在自有服务器上轻松部署静态站点、数据库、全栈应用及 360+ 一键服务。",
+  "031038be6aa29946": "在轻量真实 IDE 中用 pi 进行 vibe coding，IDE 会围绕你的工作方式自我定制——The Vibe You Need",
+  "a9de5c4449094aa4": "单个 CLAUDE.md 文件即可改善 Claude Code 行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。"
 }

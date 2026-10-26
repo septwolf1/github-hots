@@ -1,6 +1,6 @@
 {
   "since": "monthly",
-  "generatedAt": "2026-10-25T05:07:02.545Z",
+  "generatedAt": "2026-10-26T04:30:43.102Z",
   "source": "https://github.com/trending?since=monthly",
   "count": 21,
   "items": [
@@ -10,9 +10,9 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 85229,
-      "forks": 9434,
-      "gained": 49780,
+      "stars": 87174,
+      "forks": 9643,
+      "gained": 50977,
       "descriptionZh": "VoiceStudio 是开源、完全本地的 ElevenLabs 替代方案——支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录与有声书制作。"
     },
     {
@@ -21,43 +21,43 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars": 53491,
-      "forks": 6238,
-      "gained": 26766,
+      "stars": 53807,
+      "forks": 6251,
+      "gained": 25486,
       "descriptionZh": "Hindsight：会学习的 Agent 记忆。"
     },
     {
       "rank": 3,
-      "repo": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "stars": 107029,
-      "forks": 17775,
-      "gained": 25709,
-      "descriptionZh": "人人都在用的开源应用，用于管理工作中的 Agent"
-    },
-    {
-      "rank": 4,
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "stars": 288215,
-      "forks": 42725,
-      "gained": 22855,
-      "descriptionZh": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全与研究优先开发。"
-    },
-    {
-      "rank": 5,
       "repo": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 45003,
-      "forks": 2793,
-      "gained": 22219,
+      "stars": 47208,
+      "forks": 2929,
+      "gained": 24611,
       "descriptionZh": "用于多阶段安全审计的编码 Agent 技能，发现结果可独立验证且机器可读"
+    },
+    {
+      "rank": 4,
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 107358,
+      "forks": 17836,
+      "gained": 24081,
+      "descriptionZh": "人人都在用的开源应用，用于管理工作中的 Agent"
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 288963,
+      "forks": 42833,
+      "gained": 22882,
+      "descriptionZh": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全与研究优先开发。"
     },
     {
       "rank": 6,
@@ -65,9 +65,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 71588,
-      "forks": 6468,
-      "gained": 18759,
+      "stars": 72305,
+      "forks": 6532,
+      "gained": 19211,
       "descriptionZh": "编写 HTML，渲染视频，专为 Agent 打造。"
     },
     {
@@ -76,9 +76,9 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars": 73380,
-      "forks": 12866,
-      "gained": 17406,
+      "stars": 73887,
+      "forks": 12950,
+      "gained": 16847,
       "descriptionZh": "学习 AI 工程！学它、构建它、为他人交付它。"
     },
     {
@@ -87,9 +87,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 86580,
-      "forks": 5168,
-      "gained": 15700,
+      "stars": 87943,
+      "forks": 5254,
+      "gained": 16493,
       "descriptionZh": "让你的 AI 智能体框架更擅长设计的设计语言。"
     },
     {
@@ -98,9 +98,9 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 94027,
-      "forks": 10559,
-      "gained": 14582,
+      "stars": 94373,
+      "forks": 10601,
+      "gained": 14822,
       "descriptionZh": "Ghidra 是一个软件逆向工程（SRE）框架"
     },
     {
@@ -109,9 +109,9 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars": 41073,
-      "forks": 5542,
-      "gained": 12538,
+      "stars": 41654,
+      "forks": 5613,
+      "gained": 12957,
       "descriptionZh": "每月 74 亿 token。34 个免费 LLM 提供商。635 个免费模型端点。全部汇聚于一个 /v1 端点，另支持任意 OpenAI 兼容端点。智能路由、自动故障转移、密钥加密。仅供个人实验。"
     },
     {
@@ -120,9 +120,9 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars": 19581,
-      "forks": 1939,
-      "gained": 10495,
+      "stars": 19914,
+      "forks": 1971,
+      "gained": 11062,
       "descriptionZh": "OpenShell 是面向自主 AI Agent 的安全、私密运行时。"
     },
     {
@@ -131,9 +131,9 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 102870,
-      "forks": 9085,
-      "gained": 8637,
+      "stars": 103164,
+      "forks": 9111,
+      "gained": 8817,
       "descriptionZh": "为每个 Agent 提供跨会话持久上下文——捕获 Agent 会话中的所有操作，用 AI 压缩，并将相关上下文注入后续会话。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
     {
@@ -142,9 +142,9 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 32142,
-      "forks": 2221,
-      "gained": 8261,
+      "stars": 32289,
+      "forks": 2232,
+      "gained": 8324,
       "descriptionZh": "面向 AI 编码 Agent 的上下文窗口优化。沙箱化工具输出（减少 98%）、持久化会话记忆，并通过 MCP + hooks 在 17 个平台上强制路由。"
     },
     {
@@ -153,9 +153,9 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 44390,
-      "forks": 4658,
-      "gained": 7817,
+      "stars": 44594,
+      "forks": 4665,
+      "gained": 7932,
       "descriptionZh": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。"
     },
     {
@@ -164,9 +164,9 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 32696,
-      "forks": 3612,
-      "gained": 7138,
+      "stars": 33031,
+      "forks": 3636,
+      "gained": 7387,
       "descriptionZh": "开源插件仓库，主要面向知识工作者在 Claude Cowork 中使用。"
     },
     {
@@ -175,9 +175,9 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "language": "Python",
-      "stars": 22974,
-      "forks": 2237,
-      "gained": 6675,
+      "stars": 23161,
+      "forks": 2250,
+      "gained": 6821,
       "descriptionZh": "赋予你的 Agent CAD 超能力。"
     },
     {
@@ -186,9 +186,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "stars": 29884,
-      "forks": 8030,
-      "gained": 6492
+      "stars": 30196,
+      "forks": 8091,
+      "gained": 6596
     },
     {
       "rank": 18,
@@ -196,9 +196,9 @@
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars": 10946,
-      "forks": 1409,
-      "gained": 6206,
+      "stars": 11056,
+      "forks": 1418,
+      "gained": 6203,
       "descriptionZh": "更智能的自托管 AI 助手——多用户、多 Agent。"
     },
     {
@@ -207,9 +207,9 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 13930,
-      "forks": 1388,
-      "gained": 5402,
+      "stars": 14072,
+      "forks": 1406,
+      "gained": 5448,
       "descriptionZh": "Cursor 插件规范与官方插件。"
     },
     {
@@ -218,9 +218,9 @@
       "url": "https://github.com/VectifyAI/PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars": 39643,
-      "forks": 3427,
-      "gained": 3908,
+      "stars": 39721,
+      "forks": 3429,
+      "gained": 3964,
       "descriptionZh": "📑 PageIndex：面向无向量、基于推理的 RAG 的文档索引"
     },
     {
@@ -229,9 +229,9 @@
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
       "language": "Go",
-      "stars": 5840,
-      "forks": 272,
-      "gained": 2036,
+      "stars": 6017,
+      "forks": 275,
+      "gained": 2223,
       "descriptionZh": "一个知晓你的 Agent 在做什么的终端窗口管理器。平铺窗格、工作区、可跨重启的会话，以及面向所有编码 Agent 的统一 Inbox。仅 tuios.dev 和本仓库为官方。tuios 没有 X/Twitter 账号。"
     }
   ]

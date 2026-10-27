@@ -38,5 +38,13 @@
   "320a35ec8b34937e": "Claude Code 通用 SEO 技能。含 26 个子技能与 19 个子 Agent，覆盖技术 SEO、E-E-A-T、schema、GEO/AEO、Agent 就绪、外链、本地 SEO、电商、国际 SEO、Google API 及 PDF/Excel 报告。",
   "a955fd41723063bb": "开源可自托管的 PaaS，Vercel、Heroku 与 Netlify 的替代方案，可在自有服务器上轻松部署静态站点、数据库、全栈应用及 360+ 一键服务。",
   "031038be6aa29946": "在轻量真实 IDE 中用 pi 进行 vibe coding，IDE 会围绕你的工作方式自我定制——The Vibe You Need",
-  "a9de5c4449094aa4": "单个 CLAUDE.md 文件即可改善 Claude Code 行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。"
+  "a9de5c4449094aa4": "单个 CLAUDE.md 文件即可改善 Claude Code 行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+  "4ab8da157b2c3c50": "让你的 AI Agent 拥有看见整个互联网的眼睛。读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书——一个 CLI，零 API 费用。",
+  "f8dab7d1c29f8cce": "Huashu Design 3.0 · 在 agent 里打一句话，拿回可交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · 面向 Claude Code、Codex、Cursor 及任意 agent 的 HTML-native 设计技能",
+  "83ca942fbb9f6601": "AI agent 技能安全扫描器。在安装前检测 Claude Code、Codex 和 MCP 技能中的漏洞、恶意模式、安全风险、提示注入、数据外泄和供应链风险。",
+  "d9be90a22e8541c4": "📨 终极 agentic 社交媒体排期工具 🤖",
+  "5a7d870e3f1476cf": "本地优先的桌面工作区，用于持久化 AI 队友。以专属工作区、任务队列、文件共享、浏览器控制和 agent 间协作运行 Codex、Claude 和 Grok。",
+  "8f498c6fc2882745": "面向 Claude Code、Codex、Cursor、OpenCode、GitHub Copilot、Google Antigravity 和 Pi 的多 智能体框架agentic 插件市场",
+  "b4c66a09f2c118ca": "让你的 AI agent 像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。",
+  "f121a66429d7f11c": "Postgres 开发平台。Supabase 为你提供专属 Postgres 数据库，用于构建 Web、移动和 AI 应用。"
 }

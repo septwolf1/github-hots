@@ -46,5 +46,12 @@
   "5a7d870e3f1476cf": "本地优先的桌面工作区，用于持久化 AI 队友。以专属工作区、任务队列、文件共享、浏览器控制和 agent 间协作运行 Codex、Claude 和 Grok。",
   "8f498c6fc2882745": "面向 Claude Code、Codex、Cursor、OpenCode、GitHub Copilot、Google Antigravity 和 Pi 的多 智能体框架agentic 插件市场",
   "b4c66a09f2c118ca": "让你的 AI agent 像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。",
-  "f121a66429d7f11c": "Postgres 开发平台。Supabase 为你提供专属 Postgres 数据库，用于构建 Web、移动和 AI 应用。"
+  "f121a66429d7f11c": "Postgres 开发平台。Supabase 为你提供专属 Postgres 数据库，用于构建 Web、移动和 AI 应用。",
+  "aac65fe757ff28e7": "DeepTutor：终身个性化辅导。https://deeptutor.info/",
+  "1807e46f985f2a3c": "为你的编码 Agent 设计词汇。用 polish 和 bolder 引导，用 critique 和 audit 审查，在 AI 垃圾上线前拦截。",
+  "7b7acff0a8fd1817": "我的所有越狱列表",
+  "92f209e7344165c3": "一个行之有效的 Agent 技能框架与软件开发方法论。",
+  "cf547d8c2a4ffb8e": "FastAPI 框架，高性能、易学习、编码快、可用于生产环境",
+  "e8730a4d08ad43a4": "用 AI 设计实体产品",
+  "48fb12cc254038ba": "Flutter 让构建移动端及更多平台的精美应用变得轻松快速"
 }

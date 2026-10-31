@@ -64,5 +64,10 @@
   "15c7ef15a766da2c": "将 Claude Code 打造成完整的游戏开发工作室——49 个 AI Agent、72 项工作流技能，以及一套完整协调系统，映射真实工作室层级。",
   "2b24ce450d5f71cd": "开源 AI 同事，每人拥有自己的计算机：浏览器、文件和工具，每个操作先决策后记录。支持任意 AG-UI Agent。",
   "1924bd39aca36255": "AI 将文档或主题转化为真正的原生 PowerPoint 演示文稿——支持原生形状、切换与动画，按需生成数据图表和表格，从演讲者备注生成音频旁白，并支持你自己的 .pptx 模板。· 作者 Hugo He",
-  "fcb56316c193df62": "PHP 解释器"
+  "fcb56316c193df62": "PHP 解释器",
+  "a69c085fab3eb586": "面向真正工程师的 Skills，直接来自我的 .agents 目录。",
+  "da9f2d7c5938857d": "Lightpanda：专为 AI 和自动化设计的无头浏览器",
+  "7ae43e483891bab6": "Agent Skills 的公开仓库",
+  "30f7b25efffde6b8": "用 Claude Code、Codex 和 Pi 构建你自己的 Agent 网络：持久团队，具备角色、共享上下文和各自负责的工作。",
+  "219726a9d34faa5f": "开放 Agent Skills 工具 - npx skills"
 }

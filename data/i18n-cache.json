@@ -69,5 +69,11 @@
   "da9f2d7c5938857d": "Lightpanda：专为 AI 和自动化设计的无头浏览器",
   "7ae43e483891bab6": "Agent Skills 的公开仓库",
   "30f7b25efffde6b8": "用 Claude Code、Codex 和 Pi 构建你自己的 Agent 网络：持久团队，具备角色、共享上下文和各自负责的工作。",
-  "219726a9d34faa5f": "开放 Agent Skills 工具 - npx skills"
+  "219726a9d34faa5f": "开放 Agent Skills 工具 - npx skills",
+  "9db39128b7e400cf": "Orkas 是开源（MIT）、本地优先的桌面 AI 团队：Commander 将目标拆解为待办，协调 16 个内置专家 Agent 及 Claude Code、Codex、OpenCode、OpenClaw、Hermes，支持项目、定时自动化和连接器。macOS 与 Windows 免费应用，可用内置模型或自带密钥。",
+  "8661b23da7834bca": "免费开源的 macOS 菜单栏工具集。",
+  "057630bf8e86523b": "Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps 面试题。",
+  "61b25367dcf4c441": "开放多 Agent 互动课堂——一键获得沉浸式多 Agent 学习体验。",
+  "35aa151ea5b2ed6b": "DeepSeek 智能体框架破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模小码酱。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 二开请查看署名要求部分。",
+  "b6e0b8ff0cc209bd": "AI Agent 助手与开发框架，集成大量 IM 平台、LLM、插件和 AI 功能，可作为 openclaw 的替代方案。✨"
 }

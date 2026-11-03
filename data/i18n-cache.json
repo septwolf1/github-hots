@@ -85,5 +85,15 @@
   "6a81f8b4e9dd508d": "FreeToken 将数据中心级模型服务带到你的桌面。在本地快速高效地运行大型模型。",
   "4e66e6cbf60b5328": "🐍 面向空间 AI 的几何计算机视觉库",
   "4efc59e7d3f8d1d3": "Hyprland 是一个独立、高度可定制的动态平铺 Wayland 合成器，且不牺牲外观。",
-  "95702959c5c1e487": "👻 Ghostty 是一款快速、功能丰富且跨平台的终端模拟器，采用平台原生 UI 和 GPU 加速。"
+  "95702959c5c1e487": "👻 Ghostty 是一款快速、功能丰富且跨平台的终端模拟器，采用平台原生 UI 和 GPU 加速。",
+  "03ce3308114d809b": "面向 AI Agent 的计算机操作 CLI",
+  "9bc0c42dc804dc38": "🕷️ 最佳网页抓取框架，从单次请求到大规模爬取全都能处理！欢迎加入 https://discord.gg/EMgGbDceNQ，并关注 https://x.com/Scrapling_dev 获取每日技巧",
+  "cf345f21681b59b9": "在自有硬件上运行前沿 MoE 模型——纯 C、零依赖、专家从磁盘流式加载。小引擎，大模型。🐦",
+  "d1926a3706c5f5b1": "免训练的语言模型修改：移除审查、抑制废话、减少谄媚等",
+  "fdd3f7ce175d3b71": "100 美元能买到的最好的 ChatGPT。",
+  "2926722ffa59f169": "Worktrunk 是 Git worktree 管理 CLI，专为并行 AI Agent 工作流设计",
+  "29d57f87e2d6c317": "面向 Web 和移动应用的下一代端到端测试框架。",
+  "91e5f11e4110ec45": "免费本地插件，让工具输出不进入编码 Agent 的上下文窗口。沙箱与 SQLite FTS5 搜索，上下文字节减少 99%。支持 Claude Code、Codex、Pi、OpenCode、Gemini CLI、Copilot CLI 等 10 个 Agent。零遥测。",
+  "f95b82cb7df242a9": "上下文压缩插件，支持月级长会话（数十亿 token）、小窗口（100K 上下文足够）并节省 token（省 5 倍）。billion-context is all you need",
+  "35fadb1c63f35dce": "Poteto 的 pstack 的 Claude Code、Codex、Copilot、Pi、OpenCode、Muse、Gemini 和 Prime Agent 版本。严谨的 Agent 工作流，将 Cursor 原语移植到其他 智能体框架。"
 }

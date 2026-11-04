@@ -95,5 +95,7 @@
   "29d57f87e2d6c317": "面向 Web 和移动应用的下一代端到端测试框架。",
   "91e5f11e4110ec45": "免费本地插件，让工具输出不进入编码 Agent 的上下文窗口。沙箱与 SQLite FTS5 搜索，上下文字节减少 99%。支持 Claude Code、Codex、Pi、OpenCode、Gemini CLI、Copilot CLI 等 10 个 Agent。零遥测。",
   "f95b82cb7df242a9": "上下文压缩插件，支持月级长会话（数十亿 token）、小窗口（100K 上下文足够）并节省 token（省 5 倍）。billion-context is all you need",
-  "35fadb1c63f35dce": "Poteto 的 pstack 的 Claude Code、Codex、Copilot、Pi、OpenCode、Muse、Gemini 和 Prime Agent 版本。严谨的 Agent 工作流，将 Cursor 原语移植到其他 智能体框架。"
+  "35fadb1c63f35dce": "Poteto 的 pstack 的 Claude Code、Codex、Copilot、Pi、OpenCode、Muse、Gemini 和 Prime Agent 版本。严谨的 Agent 工作流，将 Cursor 原语移植到其他 智能体框架。",
+  "264cf8391ada36bb": "面向前沿 MoE 模型的分层推理引擎：热专家驻留 GPU（CUDA、Vulkan），温专家置于 RAM，冷专家从 NVMe 流式加载。用 C 编写，可在你现有硬件上运行。",
+  "4a45e9ec0b27bc2f": "轻量、蓬松、始终免费——AWS Local Emulator 的替代方案"
 }

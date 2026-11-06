@@ -1,8 +1,8 @@
 {
   "since": "monthly",
-  "generatedAt": "2026-11-05T06:27:56.659Z",
+  "generatedAt": "2026-11-06T06:22:28.276Z",
   "source": "https://github.com/trending?since=monthly",
-  "count": 14,
+  "count": 12,
   "items": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 431838,
-      "forks": 107309,
-      "gained": 430285,
+      "stars": 435279,
+      "forks": 108020,
+      "gained": 430792,
       "descriptionZh": "用 Agent 逆向分析一切，从应用行为到原生二进制文件。"
     },
     {
@@ -21,9 +21,9 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 101218,
-      "forks": 11207,
-      "gained": 48420,
+      "stars": 102152,
+      "forks": 11325,
+      "gained": 48803,
       "descriptionZh": "VoiceStudio 是开源、完全本地的 ElevenLabs 替代方案——支持 646 种语言的语音克隆、语音设计、视频配音、听写、转录与有声书制作。"
     },
     {
@@ -32,9 +32,9 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "stars": 51246,
-      "forks": 4880,
-      "gained": 47878,
+      "stars": 51548,
+      "forks": 4908,
+      "gained": 47184,
       "descriptionZh": "自动将 PS5 可执行文件移植到 Linux 和 Windows 的工具"
     },
     {
@@ -43,9 +43,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 59780,
-      "forks": 3890,
-      "gained": 34859,
+      "stars": 62074,
+      "forks": 4031,
+      "gained": 35956,
       "descriptionZh": "用于多阶段安全审计的编码 Agent 技能，发现结果可独立验证且机器可读"
     },
     {
@@ -54,9 +54,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 103102,
-      "forks": 6098,
-      "gained": 26803,
+      "stars": 104150,
+      "forks": 6173,
+      "gained": 27205,
       "descriptionZh": "为你的编码 Agent 设计词汇。用 polish 和 bolder 引导，用 critique 和 audit 审查，在 AI 垃圾上线前拦截。"
     },
     {
@@ -65,9 +65,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 79095,
-      "forks": 7281,
-      "gained": 22621,
+      "stars": 79699,
+      "forks": 7337,
+      "gained": 22694,
       "descriptionZh": "编写 HTML，渲染视频，专为 Agent 打造。"
     },
     {
@@ -76,9 +76,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
-      "stars": 46956,
-      "forks": 9492,
-      "gained": 20763
+      "stars": 48616,
+      "forks": 9651,
+      "gained": 22239
     },
     {
       "rank": 8,
@@ -86,9 +86,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 48149,
-      "forks": 2552,
-      "gained": 18210,
+      "stars": 48959,
+      "forks": 2593,
+      "gained": 19070,
       "descriptionZh": "面向 Claude Code、Cursor 和 Codex 的反 AI 套路化设计技能。"
     },
     {
@@ -97,9 +97,9 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars": 97919,
-      "forks": 11073,
-      "gained": 17528,
+      "stars": 98197,
+      "forks": 11113,
+      "gained": 17641,
       "descriptionZh": "Ghidra 是一个软件逆向工程（SRE）框架"
     },
     {
@@ -108,53 +108,31 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars": 113071,
-      "forks": 9818,
-      "gained": 17262,
+      "stars": 113666,
+      "forks": 9858,
+      "gained": 17621,
       "descriptionZh": "为每个 Agent 提供跨会话持久上下文——捕获 Agent 会话中的所有操作，用 AI 压缩，并将相关上下文注入后续会话。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
     {
       "rank": 11,
-      "repo": "tester-army/e2e",
-      "url": "https://github.com/tester-army/e2e",
-      "description": "Next generation e2e testing framework for web and mobile apps.",
-      "language": "TypeScript",
-      "stars": 13231,
-      "forks": 689,
-      "gained": 10748,
-      "descriptionZh": "面向 Web 和移动应用的下一代端到端测试框架。"
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "language": "Python",
+      "stars": 55587,
+      "forks": 6814,
+      "gained": 14748,
+      "descriptionZh": "DeepTutor：终身个性化辅导。https://deeptutor.info/"
     },
     {
       "rank": 12,
-      "repo": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "stars": 46158,
-      "forks": 4797,
-      "gained": 8948,
-      "descriptionZh": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。"
-    },
-    {
-      "rank": 13,
-      "repo": "earthtojake/text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "description": "Design physical products with AI",
-      "language": "Python",
-      "stars": 25489,
-      "forks": 2415,
-      "gained": 8831,
-      "descriptionZh": "用 AI 设计实体产品"
-    },
-    {
-      "rank": 14,
       "repo": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 34764,
-      "forks": 3832,
-      "gained": 8764,
+      "stars": 34900,
+      "forks": 3843,
+      "gained": 8823,
       "descriptionZh": "开源插件仓库，主要面向知识工作者在 Claude Cowork 中使用。"
     }
   ]

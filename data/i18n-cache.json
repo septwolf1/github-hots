@@ -140,5 +140,9 @@
   "cd725fece54dfb8f": "使用 Claude、ChatGPT 及其他 AI 助手配置和自动化 Home Assistant。",
   "bff6bab7ce46369f": "面向 AI 编码 Agent 的生产级工程技能。",
   "762fbf3c96e62144": "一个开箱即用的 Web 应用构建框架",
-  "9d49ebb8a2d71d55": "面向所有人（也由所有人共建）的个人财务应用"
+  "9d49ebb8a2d71d55": "面向所有人（也由所有人共建）的个人财务应用",
+  "ebd9b99bfd15b511": "用你最强的模型审计代码库，并编写计划交由更便宜的模型执行。",
+  "1500121ba7620a69": "OpenAI 的 Codex Security CLI 与 TypeScript SDK，用于发现、验证并修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security",
+  "35c7db0718840fb1": "所有算法均用 Java 实现",
+  "f7869ad3b3449cf5": "你的编码 Agent 所运行的运行时"
 }

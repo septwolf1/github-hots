@@ -144,5 +144,14 @@
   "ebd9b99bfd15b511": "用你最强的模型审计代码库，并编写计划交由更便宜的模型执行。",
   "1500121ba7620a69": "OpenAI 的 Codex Security CLI 与 TypeScript SDK，用于发现、验证并修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security",
   "35c7db0718840fb1": "所有算法均用 Java 实现",
-  "f7869ad3b3449cf5": "你的编码 Agent 所运行的运行时"
+  "f7869ad3b3449cf5": "你的编码 Agent 所运行的运行时",
+  "a91cb804076e96e1": "让你的编码 Agent 紧跟最新 Web 最佳实践",
+  "4058b9f4a35b18e1": "在终端、应用、IDE 或手机上免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（及另外 6 种 智能体框架），享 13 亿+免费 token，现在还支持浏览器原生会话（多 智能体框架+ 多模型），类似 OpenClaw（支持语音且符合服务条款）",
+  "7fed8cf4a0393dfc": "在任何 Apple Watch 设备上启用 Hermès 表盘",
+  "ef409f05bd5431fa": "用 C/C++ 实现 LLM 推理",
+  "3848750a3e9b34cf": "一个运行在终端中的开源 AI 编码 Agent。",
+  "507840b7e7ec952a": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活跃的 node.js 版本。",
+  "d61ac7d0a0656b0e": "Node.js JavaScript 运行时 ✨🐢🚀✨",
+  "1ab16ae59963d762": "面向 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。",
+  "caf29e670360d5e2": "从任何电脑或手机控制 Claude Code、Codex 等工具的最佳方式"
 }

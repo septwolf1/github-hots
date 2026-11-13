@@ -1,8 +1,8 @@
 {
   "since": "daily",
-  "generatedAt": "2026-11-12T06:59:01.282Z",
+  "generatedAt": "2026-11-13T06:24:44.883Z",
   "source": "https://github.com/trending?since=daily",
-  "count": 10,
+  "count": 13,
   "items": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 25518,
-      "forks": 1986,
-      "gained": 2776,
+      "stars": 26850,
+      "forks": 2082,
+      "gained": 1830,
       "descriptionZh": "一个完全可定制且面向 Agent 的开源设计系统"
     },
     {
@@ -21,9 +21,9 @@
       "url": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 13202,
-      "forks": 974,
-      "gained": 1078,
+      "stars": 14148,
+      "forks": 1066,
+      "gained": 967,
       "descriptionZh": "面向所有人（也由所有人共建）的个人财务应用"
     },
     {
@@ -32,86 +32,120 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 116157,
-      "forks": 12172,
-      "gained": 787,
+      "stars": 116829,
+      "forks": 12218,
+      "gained": 816,
       "descriptionZh": "面向 AI 编码 Agent 的生产级工程技能。"
     },
     {
       "rank": 4,
-      "repo": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 50044,
-      "forks": 3492,
-      "gained": 708,
-      "descriptionZh": "面向 AI Agent 的浏览器自动化 CLI"
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 3548,
+      "forks": 221,
+      "gained": 739,
+      "descriptionZh": "让你的编码 Agent 紧跟最新 Web 最佳实践"
     },
     {
       "rank": 5,
-      "repo": "homeassistant-ai/ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "stars": 7534,
-      "forks": 459,
-      "gained": 645,
-      "descriptionZh": "使用 Claude、ChatGPT 及其他 AI 助手配置和自动化 Home Assistant。"
-    },
-    {
-      "rank": 6,
-      "repo": "shadcn/improve",
-      "url": "https://github.com/shadcn/improve",
-      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "language": null,
-      "stars": 11161,
-      "forks": 453,
-      "gained": 361,
-      "descriptionZh": "用你最强的模型审计代码库，并编写计划交由更便宜的模型执行。"
-    },
-    {
-      "rank": 7,
-      "repo": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "stars": 70685,
-      "forks": 56990,
-      "gained": 278,
-      "descriptionZh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
-    },
-    {
-      "rank": 8,
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "",
-      "language": "TypeScript",
-      "stars": 1999,
-      "forks": 151,
-      "gained": 159
-    },
-    {
-      "rank": 9,
       "repo": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
-      "stars": 11932,
-      "forks": 950,
-      "gained": 52,
+      "stars": 12632,
+      "forks": 986,
+      "gained": 643,
       "descriptionZh": "OpenAI 的 Codex Security CLI 与 TypeScript SDK，用于发现、验证并修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security"
     },
     {
+      "rank": 6,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 69507,
+      "forks": 10793,
+      "gained": 415,
+      "descriptionZh": "在终端、应用、IDE 或手机上免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（及另外 6 种 智能体框架），享 13 亿+免费 token，现在还支持浏览器原生会话（多 智能体框架+ 多模型），类似 OpenClaw（支持语音且符合服务条款）"
+    },
+    {
+      "rank": 7,
+      "repo": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars": 11811,
+      "forks": 1453,
+      "gained": 298,
+      "descriptionZh": "开源 AI 同事，每人拥有自己的计算机：浏览器、文件和工具，每个操作先决策后记录。支持任意 AG-UI Agent。"
+    },
+    {
+      "rank": 8,
+      "repo": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C",
+      "stars": 1634,
+      "forks": 145,
+      "gained": 218,
+      "descriptionZh": "在任何 Apple Watch 设备上启用 Hermès 表盘"
+    },
+    {
+      "rank": 9,
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 134696,
+      "forks": 25521,
+      "gained": 176,
+      "descriptionZh": "用 C/C++ 实现 LLM 推理"
+    },
+    {
       "rank": 10,
-      "repo": "TheAlgorithms/Java",
-      "url": "https://github.com/TheAlgorithms/Java",
-      "description": "All Algorithms implemented in Java",
-      "language": "Java",
-      "stars": 67144,
-      "forks": 21520,
-      "gained": 51,
-      "descriptionZh": "所有算法均用 Java 实现"
+      "repo": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 29964,
+      "forks": 3409,
+      "gained": 151,
+      "descriptionZh": "一个运行在终端中的开源 AI 编码 Agent。"
+    },
+    {
+      "rank": 11,
+      "repo": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "language": "Shell",
+      "stars": 96053,
+      "forks": 10761,
+      "gained": 63,
+      "descriptionZh": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活跃的 node.js 版本。"
+    },
+    {
+      "rank": 12,
+      "repo": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 123643,
+      "forks": 38060,
+      "gained": 62,
+      "descriptionZh": "Node.js JavaScript 运行时 ✨🐢🚀✨"
+    },
+    {
+      "rank": 13,
+      "repo": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 2008,
+      "forks": 397,
+      "gained": 54,
+      "descriptionZh": "面向 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。"
     }
   ]
 }

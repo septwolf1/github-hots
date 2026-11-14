@@ -153,5 +153,15 @@
   "507840b7e7ec952a": "Node Version Manager - 符合 POSIX 的 bash 脚本，用于管理多个活跃的 node.js 版本。",
   "d61ac7d0a0656b0e": "Node.js JavaScript 运行时 ✨🐢🚀✨",
   "1ab16ae59963d762": "面向 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。",
-  "caf29e670360d5e2": "从任何电脑或手机控制 Claude Code、Codex 等工具的最佳方式"
+  "caf29e670360d5e2": "从任何电脑或手机控制 Claude Code、Codex 等工具的最佳方式",
+  "49cf98788dae58a9": "类似 netcat，但运行在 Tailscale 数据平面上，无需其控制平面",
+  "cff4a7859d1e4737": "借助 DLSS 5 让 PS5 版 GTA6 达到 120FPS。先进的 Windows 视频播放与采集增强工具，支持视频、图像和采集卡源实时预览，融合 AI 超分辨率、DLSS5 图像增强与帧生成，带来次世代视觉体验。",
+  "c0beefd0eda93c6f": "安全、快速、高效，经阿里巴巴规模实战检验。混合架构代码审查工具：确定性流水线 + LLM Agent，精确行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
+  "3745e782d6512a49": "用于跟进并掌控 Agent 的工作空间——塑造、决策、规划、标注、审查代码、与团队共享，一键将所有反馈发送给 Agent。",
+  "1b0c650f887d8fed": "群体智能通信平台",
+  "31c7fb6d717ca206": "一款精美的自托管监控工具",
+  "7827a95c18cae38d": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略开发。",
+  "974036aa8626db5e": "面向编码 Agent 的 Chrome DevTools",
+  "57cc505c9f799061": "用于借助 Agent 设计和审查软件的开源插件",
+  "cc59e0d6326e3670": "🤯 LobeHub - 团队中的超级 Agent。将超级 Agent 加入团队常用聊天，它们自主承担工作并每周进步。"
 }

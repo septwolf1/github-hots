@@ -1,6 +1,6 @@
 {
   "since": "weekly",
-  "generatedAt": "2026-11-15T06:10:29.504Z",
+  "generatedAt": "2026-11-16T06:08:58.385Z",
   "source": "https://github.com/trending?since=weekly",
   "count": 11,
   "items": [
@@ -10,9 +10,9 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 28284,
-      "forks": 2199,
-      "gained": 13660,
+      "stars": 29076,
+      "forks": 2275,
+      "gained": 13501,
       "descriptionZh": "一个完全可定制且面向 Agent 的开源设计系统"
     },
     {
@@ -21,32 +21,32 @@
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 111917,
-      "forks": 12949,
-      "gained": 12401,
+      "stars": 112658,
+      "forks": 13000,
+      "gained": 10412,
       "descriptionZh": "通过用户名跨社交网络追踪社交媒体账号"
     },
     {
       "rank": 3,
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "stars": 22889,
-      "forks": 3189,
-      "gained": 6413,
-      "descriptionZh": "开源 Grok Bot 替代方案，配备可供机器人使用的虚拟机"
-    },
-    {
-      "rank": 4,
       "repo": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 194712,
-      "forks": 22905,
-      "gained": 6220,
+      "stars": 195496,
+      "forks": 22976,
+      "gained": 6077,
       "descriptionZh": "Agent Skills 的公开仓库"
+    },
+    {
+      "rank": 4,
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 23638,
+      "forks": 3287,
+      "gained": 5463,
+      "descriptionZh": "开源 Grok Bot 替代方案，配备可供机器人使用的虚拟机"
     },
     {
       "rank": 5,
@@ -54,21 +54,21 @@
       "url": "https://github.com/google/elephant-goldfish-model",
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
-      "stars": 19295,
-      "forks": 1430,
-      "gained": 5539,
+      "stars": 19934,
+      "forks": 1481,
+      "gained": 5060,
       "descriptionZh": "用于借助 Agent 设计和审查软件的开源插件"
     },
     {
       "rank": 6,
-      "repo": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "stars": 51300,
-      "forks": 3583,
-      "gained": 4601,
-      "descriptionZh": "面向 AI Agent 的浏览器自动化 CLI"
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 15786,
+      "forks": 1382,
+      "gained": 4556,
+      "descriptionZh": "面向所有人（也由所有人共建）的个人财务应用"
     },
     {
       "rank": 7,
@@ -76,43 +76,43 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 72300,
-      "forks": 57498,
-      "gained": 4526,
+      "stars": 72593,
+      "forks": 57598,
+      "gained": 4548,
       "descriptionZh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
     },
     {
       "rank": 8,
+      "repo": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 51734,
+      "forks": 3620,
+      "gained": 4217,
+      "descriptionZh": "面向 AI Agent 的浏览器自动化 CLI"
+    },
+    {
+      "rank": 9,
       "repo": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 117649,
-      "forks": 12310,
-      "gained": 3670,
+      "stars": 118033,
+      "forks": 12349,
+      "gained": 3889,
       "descriptionZh": "面向 AI 编码 Agent 的生产级工程技能。"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "repo": "google-deepmind/mujoco",
       "url": "https://github.com/google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "stars": 18004,
-      "forks": 2204,
-      "gained": 1859,
+      "stars": 18102,
+      "forks": 2215,
+      "gained": 1922,
       "descriptionZh": "带接触的多关节动力学。通用物理模拟器。"
-    },
-    {
-      "rank": 10,
-      "repo": "anthropics/claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "stars": 21003,
-      "forks": 3497,
-      "gained": 1794,
-      "descriptionZh": "一组项目，帮助开发者快速上手使用 Claude API 构建可部署应用。"
     },
     {
       "rank": 11,
@@ -120,9 +120,9 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11325,
-      "forks": 965,
-      "gained": 818,
+      "stars": 12030,
+      "forks": 1113,
+      "gained": 1719,
       "descriptionZh": "用于跟进并掌控 Agent 的工作空间——塑造、决策、规划、标注、审查代码、与团队共享，一键将所有反馈发送给 Agent。"
     }
   ]

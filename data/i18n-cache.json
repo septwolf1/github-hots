@@ -169,5 +169,9 @@
   "be5efb2f49573568": "🪨 少 token 能办成的事何必多用 token。爆火的技能与智能体，用原始人式说话为编码 Agent 节省 65% token。",
   "aa13fbd6fe1746ea": "面向编码 Agent 交付的自托管工作流。用脚本和人工审批关卡编排 CodeBuddy、Codex 与 Claude Code，含编码助手的本地工作流。",
   "ed59976bc090a991": "AG-UI：Agent 与用户交互协议，将 Agent 引入前端应用。",
-  "2e9758321ce57821": "面向 Claude Code 与 Codex 的 AI 视频技能：用 Remotion 制作电影感、可编辑的产品宣传片，含 124 张镜头配方卡、150 个动效预览、节拍同步、声音设计、Motion Workbench 及剪映导出。"
+  "2e9758321ce57821": "面向 Claude Code 与 Codex 的 AI 视频技能：用 Remotion 制作电影感、可编辑的产品宣传片，含 124 张镜头配方卡、150 个动效预览、节拍同步、声音设计、Motion Workbench 及剪映导出。",
+  "5d0d6f9824bcbef0": "一套为 Stitch MCP 服务器设计的 Agent Skills 库。每个 skill 遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。",
+  "01f7b11f39607f59": "多层级框架，用于评估 AI Agent 技能，包含质量门禁、语义重叠检测、合成评估数据集生成，以及衡量技能如何影响 Agent 行为的实时 Agent 评估。",
+  "3174c7ebe5d65dd7": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包：82 个技能、15 个斜杠命令、覆盖 24 个核心漏洞类别的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。",
+  "f008e18e8ba71090": "用于机器学习的张量库"
 }

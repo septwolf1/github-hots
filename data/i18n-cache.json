@@ -173,5 +173,12 @@
   "5d0d6f9824bcbef0": "一套为 Stitch MCP 服务器设计的 Agent Skills 库。每个 skill 遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。",
   "01f7b11f39607f59": "多层级框架，用于评估 AI Agent 技能，包含质量门禁、语义重叠检测、合成评估数据集生成，以及衡量技能如何影响 Agent 行为的实时 Agent 评估。",
   "3174c7ebe5d65dd7": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包：82 个技能、15 个斜杠命令、覆盖 24 个核心漏洞类别的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。",
-  "f008e18e8ba71090": "用于机器学习的张量库"
+  "f008e18e8ba71090": "用于机器学习的张量库",
+  "75936b0a22937d09": "多层级框架，用于评估 AI Agent 技能与插件，具备质量门禁、语义重叠检测、合成评估数据集生成，以及衡量技能如何影响 Agent 行为的实时 Agent 评估。",
+  "3ce765b8b5e8c543": "面向编码 Agent 的本地视频编辑器：42 个 FFmpeg 工具，提供机器可读契约与 MCP server，支持 Claude Code、Cursor 和 Codex。剪辑、字幕、重构图、响度、平台导出。无需云服务，无需 API key。",
+  "bc6d8a96c921deb0": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多 Agent 框架。",
+  "7abb2d9104f53427": "江山时序 · 中国历史交互地图时间轴（公元前 403 年至今）| 涵盖 18 个朝代、198 个疆域快照、古今地名沿革与古典诗词路线的中国历史交互地图",
+  "ee626e3e638bfc9b": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任意主题，然后综合出有依据的摘要",
+  "ab30de3063b19e29": "面向大众的 Web 开发",
+  "7966ced25099ff32": "面向所有人的现代 Docker 管理"
 }

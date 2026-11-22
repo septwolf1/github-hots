@@ -1,6 +1,6 @@
 {
   "since": "daily",
-  "generatedAt": "2026-11-21T06:54:20.762Z",
+  "generatedAt": "2026-11-22T06:29:52.209Z",
   "source": "https://github.com/trending?since=daily",
   "count": 16,
   "items": [
@@ -10,9 +10,9 @@
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 14697,
-      "forks": 1726,
-      "gained": 1622,
+      "stars": 16401,
+      "forks": 1859,
+      "gained": 1803,
       "descriptionZh": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包：82 个技能、15 个斜杠命令、覆盖 24 个核心漏洞类别的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。"
     },
     {
@@ -21,109 +21,109 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 205507,
-      "forks": 10746,
-      "gained": 1241,
+      "stars": 206394,
+      "forks": 10792,
+      "gained": 1006,
       "descriptionZh": "为你的 Agent 提供更智能的知识基础设施。通过单一 API 搜索、抓取并访问 550+ 数据提供商。"
     },
     {
       "rank": 3,
-      "repo": "XiaoYouChR/Ghost-Downloader-3",
-      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "description": "The only downloader you need. 下载器的集大成者。",
-      "language": "Python",
-      "stars": 13931,
-      "forks": 849,
-      "gained": 1082,
-      "descriptionZh": "你唯一需要的下载器。下载器的集大成者。"
-    },
-    {
-      "rank": 4,
-      "repo": "zhouxiaoka/autoclip",
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-      "language": "Python",
-      "stars": 12356,
-      "forks": 2031,
-      "gained": 979,
-      "descriptionZh": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。"
-    },
-    {
-      "rank": 5,
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 322990,
-      "forks": 28678,
-      "gained": 890,
+      "stars": 323870,
+      "forks": 28726,
+      "gained": 883,
       "descriptionZh": "一个行之有效的 Agent 技能框架与软件开发方法论。"
+    },
+    {
+      "rank": 4,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "stars": 14611,
+      "forks": 884,
+      "gained": 779,
+      "descriptionZh": "你唯一需要的下载器。下载器的集大成者。"
+    },
+    {
+      "rank": 5,
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 62222,
+      "forks": 5647,
+      "gained": 769,
+      "descriptionZh": "CLI-Anything：让所有软件成为 Agent 原生——CLI-Hub：https://clianything.cc/"
     },
     {
       "rank": 6,
       "repo": "mjmirza/app-store-compliance",
       "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 2908,
-      "forks": 183,
-      "gained": 869,
-      "descriptionZh": "规避 App Store 与 Google Play 常见拒审。开放手册与提交前防护，含 117 种拒审模式及修复、隐私清单与数据安全校验、95 个跟踪截止日期（EU AI Act、DSA、COPPA、年龄法规），以及面向 AI 编码 Agent 的技能。"
+      "stars": 3534,
+      "forks": 217,
+      "gained": 720,
+      "descriptionZh": "规避 App Store 与 Google Play 常见拒审。开放手册与提交前检查，含 124 个已记录拒审模式及修复、隐私清单与数据安全核查、111 个跟踪截止日期（EU AI Act、DSA、COPPA、年龄法），以及面向 AI 编码 Agent 的技能。"
     },
     {
       "rank": 7,
-      "repo": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "repo": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
-      "stars": 67820,
-      "forks": 8866,
-      "gained": 847,
-      "descriptionZh": "两小时从 0 训出你的 64M 大模型。"
+      "stars": 12993,
+      "forks": 2088,
+      "gained": 683,
+      "descriptionZh": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。"
     },
     {
       "rank": 8,
-      "repo": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "stars": 61560,
-      "forks": 5582,
-      "gained": 773,
-      "descriptionZh": "CLI-Anything：让所有软件成为 Agent 原生——CLI-Hub：https://clianything.cc/"
-    },
-    {
-      "rank": 9,
-      "repo": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "language": "Python",
-      "stars": 71580,
-      "forks": 6342,
-      "gained": 681,
-      "descriptionZh": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任意主题，然后综合出有依据的摘要"
-    },
-    {
-      "rank": 10,
-      "repo": "toeverything/AFFiNE",
-      "url": "https://github.com/toeverything/AFFiNE",
-      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-      "language": "TypeScript",
-      "stars": 75924,
-      "forks": 5584,
-      "gained": 676,
-      "descriptionZh": "不止于 Notion 和 Miro。AFFiNE（读作 [ə‘fain]）是新一代知识库，将规划、整理与创作融为一体。隐私优先、开源、可定制、开箱即用。"
-    },
-    {
-      "rank": 11,
       "repo": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 69430,
-      "forks": 4660,
-      "gained": 636,
+      "stars": 69910,
+      "forks": 4690,
+      "gained": 583,
       "descriptionZh": "面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑级图表设计。45 种图表类型。自包含 HTML + SVG。无阴影。无 Mermaid 劣质输出。"
+    },
+    {
+      "rank": 9,
+      "repo": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "language": "TypeScript",
+      "stars": 76418,
+      "forks": 5601,
+      "gained": 574,
+      "descriptionZh": "不止于 Notion 和 Miro。AFFiNE（读作 [ə‘fain]）是新一代知识库，将规划、整理与创作融为一体。隐私优先、开源、可定制、开箱即用。"
+    },
+    {
+      "rank": 10,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 72162,
+      "forks": 6390,
+      "gained": 560,
+      "descriptionZh": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任意主题，然后综合出有依据的摘要"
+    },
+    {
+      "rank": 11,
+      "repo": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "stars": 68267,
+      "forks": 8927,
+      "gained": 488,
+      "descriptionZh": "两小时从 0 训出你的 64M 大模型。"
     },
     {
       "rank": 12,
@@ -131,9 +131,9 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 13708,
-      "forks": 1929,
-      "gained": 466,
+      "stars": 14083,
+      "forks": 1946,
+      "gained": 450,
       "descriptionZh": "面向 CI/CD 可靠性的开源 Agent。"
     },
     {
@@ -142,9 +142,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11126,
-      "forks": 1413,
-      "gained": 315,
+      "stars": 11570,
+      "forks": 1449,
+      "gained": 326,
       "descriptionZh": "一套为 Stitch MCP 服务器设计的 Agent Skills 库。每个 skill 遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。"
     },
     {
@@ -153,32 +153,32 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 17910,
-      "forks": 1964,
-      "gained": 299,
+      "stars": 18175,
+      "forks": 1985,
+      "gained": 260,
       "descriptionZh": "Cursor 插件规范与官方插件。"
     },
     {
       "rank": 15,
-      "repo": "nginx/nginx",
-      "url": "https://github.com/nginx/nginx",
-      "description": "The official NGINX Open Source repository.",
-      "language": "C",
-      "stars": 32617,
-      "forks": 8368,
-      "gained": 246,
-      "descriptionZh": "NGINX 开源官方仓库。"
-    },
-    {
-      "rank": 16,
       "repo": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 11833,
-      "forks": 3641,
-      "gained": 217,
+      "stars": 11978,
+      "forks": 3654,
+      "gained": 200,
       "descriptionZh": "OpenVINO™ 是用于优化和部署 AI 推理的开源工具包"
+    },
+    {
+      "rank": 16,
+      "repo": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "language": "C",
+      "stars": 32776,
+      "forks": 8375,
+      "gained": 189,
+      "descriptionZh": "NGINX 开源官方仓库。"
     }
   ]
 }

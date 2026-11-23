@@ -1,6 +1,6 @@
 {
   "since": "weekly",
-  "generatedAt": "2026-11-22T06:29:53.040Z",
+  "generatedAt": "2026-11-23T07:20:42.788Z",
   "source": "https://github.com/trending?since=weekly",
   "count": 13,
   "items": [
@@ -10,32 +10,32 @@
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 31131,
-      "forks": 2838,
-      "gained": 7240,
+      "stars": 31337,
+      "forks": 2845,
+      "gained": 6436,
       "descriptionZh": "使用 Univer Office SDK 构建你自己的 AI 办公套件。为人和 AI Agent 带来编辑、计算、协作与文件处理能力，基于可扩展的开源内核。"
     },
     {
       "rank": 2,
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "language": "TypeScript",
-      "stars": 9960,
-      "forks": 798,
-      "gained": 4400,
-      "descriptionZh": "让你的编码 Agent 紧跟最新 Web 最佳实践"
-    },
-    {
-      "rank": 3,
       "repo": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 72162,
-      "forks": 6390,
-      "gained": 4198,
+      "stars": 72972,
+      "forks": 6453,
+      "gained": 4731,
       "descriptionZh": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任意主题，然后综合出有依据的摘要"
+    },
+    {
+      "rank": 3,
+      "repo": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "stars": 9894,
+      "forks": 874,
+      "gained": 3748,
+      "descriptionZh": "面向编码 Agent 的本地视频编辑器：42 个 FFmpeg 工具，提供机器可读契约与 MCP server，支持 Claude Code、Cursor 和 Codex。剪辑、字幕、重构图、响度、平台导出。无需云服务，无需 API key。"
     },
     {
       "rank": 4,
@@ -43,9 +43,9 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 55177,
-      "forks": 4574,
-      "gained": 4032,
+      "stars": 55505,
+      "forks": 4612,
+      "gained": 3700,
       "descriptionZh": "安全、快速、高效，经阿里巴巴规模实战检验。混合架构代码审查工具：确定性流水线 + LLM Agent，精确行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。"
     },
     {
@@ -54,9 +54,9 @@
       "url": "https://github.com/meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 31916,
-      "forks": 2505,
-      "gained": 3967,
+      "stars": 32330,
+      "forks": 2540,
+      "gained": 3626,
       "descriptionZh": "一个完全可定制且面向 Agent 的开源设计系统"
     },
     {
@@ -65,21 +65,21 @@
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 21060,
-      "forks": 2149,
-      "gained": 3792,
+      "stars": 21255,
+      "forks": 2160,
+      "gained": 3620,
       "descriptionZh": "AG-UI：Agent 与用户交互协议，将 Agent 引入前端应用。"
     },
     {
       "rank": 7,
-      "repo": "kajisho5/ffmpeg-skill",
-      "url": "https://github.com/kajisho5/ffmpeg-skill",
-      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "language": "Python",
-      "stars": 9375,
-      "forks": 843,
-      "gained": 3598,
-      "descriptionZh": "面向编码 Agent 的本地视频编辑器：42 个 FFmpeg 工具，提供机器可读契约与 MCP server，支持 Claude Code、Cursor 和 Codex。剪辑、字幕、重构图、响度、平台导出。无需云服务，无需 API key。"
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 10300,
+      "forks": 813,
+      "gained": 3575,
+      "descriptionZh": "让你的编码 Agent 紧跟最新 Web 最佳实践"
     },
     {
       "rank": 8,
@@ -87,43 +87,43 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 14220,
-      "forks": 1414,
-      "gained": 3396,
+      "stars": 14515,
+      "forks": 1433,
+      "gained": 2815,
       "descriptionZh": "用于跟进并掌控 Agent 的工作空间——塑造、决策、规划、标注、审查代码、与团队共享，一键将所有反馈发送给 Agent。"
     },
     {
       "rank": 9,
-      "repo": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "language": "Python",
-      "stars": 7667,
-      "forks": 1485,
-      "gained": 3113,
-      "descriptionZh": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略开发。"
-    },
-    {
-      "rank": 10,
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "stars": 58724,
-      "forks": 4906,
-      "gained": 2795,
-      "descriptionZh": "面向编码 Agent 的 Chrome DevTools"
-    },
-    {
-      "rank": 11,
       "repo": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11570,
-      "forks": 1449,
-      "gained": 2431,
+      "stars": 12039,
+      "forks": 1493,
+      "gained": 2683,
       "descriptionZh": "一套为 Stitch MCP 服务器设计的 Agent Skills 库。每个 skill 遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。"
+    },
+    {
+      "rank": 10,
+      "repo": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "stars": 7841,
+      "forks": 1502,
+      "gained": 2616,
+      "descriptionZh": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略开发。"
+    },
+    {
+      "rank": 11,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 58905,
+      "forks": 4920,
+      "gained": 2268,
+      "descriptionZh": "面向编码 Agent 的 Chrome DevTools"
     },
     {
       "rank": 12,
@@ -131,9 +131,9 @@
       "url": "https://github.com/we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 17189,
-      "forks": 1501,
-      "gained": 2041,
+      "stars": 17405,
+      "forks": 1532,
+      "gained": 1771,
       "descriptionZh": "面向所有人（也由所有人共建）的个人财务应用"
     },
     {
@@ -142,9 +142,9 @@
       "url": "https://github.com/pookjw/HermesEnabler",
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "Objective-C",
-      "stars": 2362,
-      "forks": 199,
-      "gained": 524,
+      "stars": 2415,
+      "forks": 201,
+      "gained": 461,
       "descriptionZh": "在任何 Apple Watch 设备上启用 Hermès 表盘"
     }
   ]

@@ -207,5 +207,6 @@
   "f88dcb6993795629": "面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑级图表设计。52 种图表类型。自包含 HTML + SVG。无阴影。拒绝 Mermaid 式粗糙。",
   "1a698a9f146cc71a": "开源 AI 视频编辑器：可剪辑自有素材，或用 Claude Code、Codex 或免费 Studio 应用创作和重制任意视频。写 HTML，渲染 MP4。由 HeyGen 出品。",
   "4b88fb24849a6863": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包：84 个技能、15 个斜杠命令、覆盖 24 类核心漏洞的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。",
-  "dfa4450df641f307": "所有 Agent 的模型，集中一处。菜单栏即可让 Codex 用 DeepSeek、Claude Code 用 Kimi。"
+  "dfa4450df641f307": "所有 Agent 的模型，集中一处。菜单栏即可让 Codex 用 DeepSeek、Claude Code 用 Kimi。",
+  "c53bd240b6114d0f": "在 dsh 中安装此插件即可，无需登录、注册或填写 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型，完全免费且不限量。"
 }

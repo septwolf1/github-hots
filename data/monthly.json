@@ -1,6 +1,6 @@
 {
   "since": "monthly",
-  "generatedAt": "2026-11-26T08:00:32.273Z",
+  "generatedAt": "2026-11-27T08:05:39.143Z",
   "source": "https://github.com/trending?since=monthly",
   "count": 19,
   "items": [
@@ -10,9 +10,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
-      "stars": 79971,
-      "forks": 14127,
-      "gained": 49283,
+      "stars": 81387,
+      "forks": 14363,
+      "gained": 50354,
       "descriptionZh": "从任何电脑或手机控制 Claude Code、Codex 等工具的最佳方式"
     },
     {
@@ -21,9 +21,9 @@
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "language": "JavaScript",
-      "stars": 87526,
-      "forks": 2479,
-      "gained": 47629,
+      "stars": 88588,
+      "forks": 2506,
+      "gained": 46809,
       "descriptionZh": "在 dsh 中安装此插件即可，无需登录、注册或填写 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型，完全免费且不限量。"
     },
     {
@@ -32,9 +32,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 78481,
-      "forks": 5311,
-      "gained": 32663,
+      "stars": 78970,
+      "forks": 5353,
+      "gained": 31165,
       "descriptionZh": "用于多阶段安全审计的编码 Agent 技能，发现结果可独立验证且机器可读"
     },
     {
@@ -43,9 +43,9 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars": 117108,
-      "forks": 7008,
-      "gained": 30151,
+      "stars": 117696,
+      "forks": 7055,
+      "gained": 29366,
       "descriptionZh": "为你的编码 Agent 设计词汇。用 polish 和 bolder 引导，用 critique 和 audit 审查，在 AI 垃圾上线前拦截。"
     },
     {
@@ -54,9 +54,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 61263,
-      "forks": 3360,
-      "gained": 28295,
+      "stars": 61795,
+      "forks": 3393,
+      "gained": 26738,
       "descriptionZh": "面向 Claude Code、Cursor 和 Codex 的反 AI 套路化设计技能。"
     },
     {
@@ -65,9 +65,9 @@
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 117743,
-      "forks": 13435,
-      "gained": 22950,
+      "stars": 118270,
+      "forks": 13494,
+      "gained": 23328,
       "descriptionZh": "通过用户名跨社交网络追踪社交媒体账号"
     },
     {
@@ -76,54 +76,54 @@
       "url": "https://github.com/milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 27948,
-      "forks": 3986,
-      "gained": 22391,
+      "stars": 28297,
+      "forks": 4028,
+      "gained": 22590,
       "descriptionZh": "开源 Grok Bot 替代方案，配备可供机器人使用的虚拟机"
     },
     {
       "rank": 8,
-      "repo": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "language": "Go",
-      "stars": 41731,
-      "forks": 3824,
-      "gained": 20593,
-      "descriptionZh": "所有 Agent 的模型，集中一处。菜单栏即可让 Codex 用 DeepSeek、Claude Code 用 Kimi。"
-    },
-    {
-      "rank": 9,
       "repo": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
       "language": "Python",
-      "stars": 62948,
-      "forks": 7591,
-      "gained": 20351,
+      "stars": 63555,
+      "forks": 7665,
+      "gained": 20206,
       "descriptionZh": "DeepTutor：终身个性化辅导。https://deeptutor.info/"
     },
     {
+      "rank": 9,
+      "repo": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+      "language": "Go",
+      "stars": 42262,
+      "forks": 3884,
+      "gained": 20130,
+      "descriptionZh": "汇集你付费的所有套餐——Claude、ChatGPT、Copilot、GLM Coding Plan、Kimi Code 等——在任意 Agent 中使用：Claude Code、Codex、Claude Desktop……一个用尽，下一个接替。"
+    },
+    {
       "rank": 10,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "stars": 25086,
+      "forks": 2549,
+      "gained": 18637,
+      "descriptionZh": "Claude Code 技能包，用于漏洞挖掘与外部红队工作——85 个技能、16 个斜杠命令、681 个披露报告模式，覆盖 24 个核心漏洞类别，另含企业身份与基础设施攻击矩阵。"
+    },
+    {
+      "rank": 11,
       "repo": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
       "language": "TypeScript",
-      "stars": 90370,
-      "forks": 8416,
-      "gained": 18511,
+      "stars": 91090,
+      "forks": 8500,
+      "gained": 18292,
       "descriptionZh": "开源 AI 视频编辑器：可剪辑自有素材，或用 Claude Code、Codex 或免费 Studio 应用创作和重制任意视频。写 HTML，渲染 MP4。由 HeyGen 出品。"
-    },
-    {
-      "rank": 11,
-      "repo": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "stars": 119837,
-      "forks": 10420,
-      "gained": 17424,
-      "descriptionZh": "为每个 Agent 提供跨会话持久上下文——捕获 Agent 会话中的所有操作，用 AI 压缩，并将相关上下文注入后续会话。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
     {
       "rank": 12,
@@ -131,21 +131,21 @@
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 200705,
-      "forks": 23468,
-      "gained": 17272,
+      "stars": 201202,
+      "forks": 23544,
+      "gained": 17538,
       "descriptionZh": "Agent Skills 的公开仓库"
     },
     {
       "rank": 13,
-      "repo": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "language": "Python",
-      "stars": 23460,
-      "forks": 2397,
-      "gained": 17223,
-      "descriptionZh": "Claude Code 技能包，用于漏洞挖掘与外部红队工作——85 个技能、16 个斜杠命令、681 个披露报告模式，覆盖 24 个核心漏洞类别，另含企业身份与基础设施攻击矩阵。"
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 120064,
+      "forks": 10448,
+      "gained": 17325,
+      "descriptionZh": "为每个 Agent 提供跨会话持久上下文——捕获 Agent 会话中的所有操作，用 AI 压缩，并将相关上下文注入后续会话。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
     {
       "rank": 14,
@@ -153,9 +153,9 @@
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars": 32482,
-      "forks": 3958,
-      "gained": 12180,
+      "stars": 32727,
+      "forks": 3974,
+      "gained": 10958,
       "descriptionZh": "Claude Code 通用 SEO 技能。含 26 个子技能与 19 个子 Agent，覆盖技术 SEO、E-E-A-T、schema、GEO/AEO、Agent 就绪、外链、本地 SEO、电商、国际 SEO、Google API 及 PDF/Excel 报告。"
     },
     {
@@ -164,9 +164,9 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 54039,
-      "forks": 3773,
-      "gained": 9541,
+      "stars": 54221,
+      "forks": 3780,
+      "gained": 9648,
       "descriptionZh": "面向 AI Agent 的浏览器自动化 CLI"
     },
     {
@@ -175,9 +175,9 @@
       "url": "https://github.com/kajisho5/ffmpeg-skill",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
-      "stars": 11253,
-      "forks": 947,
-      "gained": 8284,
+      "stars": 11664,
+      "forks": 973,
+      "gained": 8408,
       "descriptionZh": "面向编码 Agent 的本地视频编辑器：42 个 FFmpeg 工具，提供机器可读契约与 MCP server，支持 Claude Code、Cursor 和 Codex。剪辑、字幕、重构图、响度、平台导出。无需云服务，无需 API key。"
     },
     {
@@ -186,9 +186,9 @@
       "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "language": "Python",
-      "stars": 9391,
-      "forks": 1612,
-      "gained": 6421,
+      "stars": 9684,
+      "forks": 1641,
+      "gained": 6511,
       "descriptionZh": "十三个运行 Instagram 账号的 Claude 技能：基于 26 个评分钩子公式的 Reels、爆款研究技能、文案检查器和人性化工具。免费，MIT。"
     },
     {
@@ -197,9 +197,9 @@
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 15146,
-      "forks": 1451,
-      "gained": 5475,
+      "stars": 15309,
+      "forks": 1466,
+      "gained": 5601,
       "descriptionZh": "用于跟进并掌控 Agent 的工作空间——塑造、决策、规划、标注、审查代码、与团队共享，一键将所有反馈发送给 Agent。"
     },
     {
@@ -208,9 +208,9 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 13095,
-      "forks": 1545,
-      "gained": 4344,
+      "stars": 13394,
+      "forks": 1576,
+      "gained": 4609,
       "descriptionZh": "一套为 Stitch MCP 服务器设计的 Agent Skills 库。每个 skill 遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。"
     }
   ]
